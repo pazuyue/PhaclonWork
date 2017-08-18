@@ -51,7 +51,7 @@ class SqlGetProfiler
                         $log .= "Start Time: " . $profile->getInitialTime() . "\n";
                         $log .= "Final Time: " . $profile->getFinalTime() . "\n";
                         $log .= "Total Elapsed Time: " . $profile->getTotalElapsedSeconds() . "\n";
-                        $loger->info($log);
+                        $loger->notice($log);
                     }
                 }
             });

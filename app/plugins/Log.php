@@ -45,7 +45,7 @@ class Log
         {
             $message= json_encode($message);
         }
-        $logger->error($message);
+        $logger->info($message);
     }
 
     public function debug($message){
@@ -56,7 +56,18 @@ class Log
         {
             $message= json_encode($message);
         }
-        $logger->error($message);
+        $logger->debug($message);
+    }
+
+    public function notice($message){
+        $log_dir =$this->log_dir."/notice";
+        checkDir($log_dir);
+        $logger = new Katzgrau\KLogger\Logger($log_dir,Psr\Log\LogLevel::NOTICE,array('extension' => 'log'));
+        if(is_array($message))
+        {
+            $message= json_encode($message);
+        }
+        $logger->notice($message);
     }
 
 }
