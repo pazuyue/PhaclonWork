@@ -9,7 +9,7 @@
 class DemoController
 {
     //日记类收费
-    public function log()
+    public function logTestAction()
     {
         $users = [
             [
@@ -21,7 +21,7 @@ class DemoController
                 'username' => 'dhrrgn',
             ],
         ];
-        Log::getInstance()->error($users);
+        Log::getInstance()->debug($users);
     }
 
 }

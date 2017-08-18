@@ -45,15 +45,13 @@ class SqlGetProfiler
                     $profiler->stopProfile();
                     // Get the generated profiles from the profiler
                     $profiles = $profiler->getProfiles();
-                    $logDir="RunTime/log/".date("Y-m-d");
-                    if (!is_dir($logDir)) mkdir($logDir);
-                    $logger = new FileLogger($logDir."/info.log");
+                    $loger= Log::getInstance();
                     foreach ($profiles as $profile) {
                         $log = "SQL Statement: " . $profile->getSQLStatement() . "\n";
                         $log .= "Start Time: " . $profile->getInitialTime() . "\n";
                         $log .= "Final Time: " . $profile->getFinalTime() . "\n";
                         $log .= "Total Elapsed Time: " . $profile->getTotalElapsedSeconds() . "\n";
-                        $logger->log($log, Logger::INFO);
+                        $loger->info($log);
                     }
                 }
             });
