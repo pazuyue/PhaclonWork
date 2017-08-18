@@ -12,3 +12,8 @@ function pre_var($total){
     var_dump($total);
     echo "</pre>";
 }
+
+/*检查目录是否存在，不存在新建*/
+function checkDir($logDir){
+    if (!is_dir($logDir)) mkdir($logDir);
+}

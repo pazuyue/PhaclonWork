@@ -13,17 +13,17 @@ class UserController extends ControllerBase
      */
     public function indexAction()
     {
-        //$this->persistent->parameters = null;
-      /*  $user = new User();
-        $metadata  = $user->getModelsMetaData();
-        $attributes = $metadata->getAttributes($user);
-        print_r($attributes);
-        echo "<br>";
-        $dataTypes = $metadata->getDataTypes($user);
-        print_r($dataTypes);*/
-        // Executing a simple query
-       /* $query = $this->modelsManager->createQuery("SELECT * FROM User");
-        $cars  = $query->execute();*/
+        $users = [
+            [
+                'name' => 'Kenny Katzgrau',
+                'username' => 'katzgrau',
+            ],
+            [
+                'name' => 'Dan Horrigan',
+                'username' => 'dhrrgn',
+            ],
+        ];
+        Log::getInstance()->error($users);
     }
 
     /**

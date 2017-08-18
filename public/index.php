@@ -23,6 +23,9 @@ try {
      */
     include APP_PATH . '/config/services.php';
 
+    require BASE_PATH.'/vendor/autoload.php';
+    include APP_PATH . '/globals/common/CommonFun.php';
+
     /**
      * Get config service for use in inline setup below
      */
