@@ -14,9 +14,9 @@ class SecurityPlugin extends Plugin
         // Check whether the "auth" variable exists in session to define the active role
         $auth = $this->session->get('auth');
         if (empty($auth)) {
-            $role = 'Guests';
+            $role = 'Guests'; //游客
         } else {
-            $role = 'Users';
+            $role = 'Users'; //用户
         }
 
         // Take the active controller/action from the dispatcher
@@ -33,7 +33,7 @@ class SecurityPlugin extends Plugin
         if ($allowed != Acl::ALLOW) {
 
             // If he doesn't have access forward him to the index controller
-            $this->flash->error("You don't have access to this module");
+            $this->flash->error("您没有浏览的权限");
             $dispatcher->forward(
                 array(
                     'controller' => 'index',
@@ -48,7 +48,6 @@ class SecurityPlugin extends Plugin
 
 
     public function getAcl() {
-
         if (!isset($this->persistent->acl)) {
             $acl = new Phalcon\Acl\Adapter\Memory();
 
@@ -60,26 +59,20 @@ class SecurityPlugin extends Plugin
                 'Users'  => new Phalcon\Acl\Role('Users'),
                 'Guests' => new Phalcon\Acl\Role('Guests')
             );
+
             foreach ($roles as $role) {
                 $acl->addRole($role);
             }
 
-            //Private area resources
-            $privateResources = array(
-                'products'     => array('index', 'search', 'new', 'edit', 'save', 'create', 'delete')
-            );
-            foreach ($privateResources as $resource => $actions) {
-                $acl->addResource(new Phalcon\Acl\Resource($resource), $actions);
-            }
 
             //Public area resources
             $publicResources = array(
-                 'index'   => array('index'),
-                 'user'    => array('index', 'search', 'new', 'edit', 'save', 'create'),
-                 'demo'    => array('index'),
-                'session' => array('index', 'register', 'start', 'end'),
-                'contact' => array('index', 'send')
+                 'index'   => array('index','register'),
             );
+
+
+
+
             foreach ($publicResources as $resource => $actions) {
                 $acl->addResource(new Phalcon\Acl\Resource($resource), $actions);
             }
@@ -90,13 +83,8 @@ class SecurityPlugin extends Plugin
                 foreach ($publicResources as $resource => $actions) {
                     $acl->allow("Guests", $resource, $actions);
                 }
-            }
 
-            //Grant acess to private area to role Users
-            foreach ($privateResources as $resource => $actions) {
-                foreach ($actions as $action){
-                    $acl->allow('Users', $resource, $action);
-                }
+                $acl->allow("Users", "*", '*');
             }
 
             //The acl is stored in session, APC would be useful here too

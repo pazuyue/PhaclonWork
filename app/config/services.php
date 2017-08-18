@@ -26,7 +26,6 @@ $di->setShared('config', function () {
  */
 $di->setShared('url', function () {
     $config = $this->getConfig();
-
     $url = new UrlResolver();
     $url->setBaseUri($config->application->baseUri);
 
@@ -132,11 +131,11 @@ $di->setShared('dispatcher', function () {
 
     $eventsManager = new EventsManager();
 
-    // Listen for events produced in the dispatcher using the Security plugin
+    // 在执行控制器/动作方法前触发。此时，调度器已经初始化了控制器并知道动作是否存在。
     $eventsManager->attach('dispatch:beforeExecuteRoute',new SecurityPlugin);
 
-    // Handle exceptions and not-found exceptions using NotFoundPlugin
-    $eventsManager->attach('dispatch:beforeException',new SecurityPlugin);
+    // 在调度器抛出任意异常前触发
+    //$eventsManager->attach('dispatch:beforeException',new Exception);
 
     $dispatcher = new Dispatcher();
 

@@ -1,60 +1,240 @@
-[Fri, 18 Aug 17 05:52:32 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
-Start Time: 1503035552.5401
-Final Time: 1503035552.5411
+[Fri, 18 Aug 17 07:44:49 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+Start Time: 1503042289.3605
+Final Time: 1503042289.3615
 Total Elapsed Time: 0.00099992752075195
 
-[Fri, 18 Aug 17 05:52:32 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
-Start Time: 1503035552.5401
-Final Time: 1503035552.5411
+[Fri, 18 Aug 17 07:44:49 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+Start Time: 1503042289.3605
+Final Time: 1503042289.3615
 Total Elapsed Time: 0.00099992752075195
 
-[Fri, 18 Aug 17 05:52:32 +0000][INFO] SQL Statement: DESCRIBE `test`.`user`
-Start Time: 1503035552.5411
-Final Time: 1503035552.5531
-Total Elapsed Time: 0.012001037597656
+[Fri, 18 Aug 17 07:44:49 +0000][INFO] SQL Statement: DESCRIBE `test`.`user`
+Start Time: 1503042289.3725
+Final Time: 1503042289.4005
+Total Elapsed Time: 0.028002023696899
 
-[Fri, 18 Aug 17 05:52:32 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
-Start Time: 1503035552.5401
-Final Time: 1503035552.5411
+[Fri, 18 Aug 17 07:45:49 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042349.1079
+Final Time: 1503042349.1109
+Total Elapsed Time: 0.003000020980835
+
+[Fri, 18 Aug 17 07:45:49 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042349.1079
+Final Time: 1503042349.1109
+Total Elapsed Time: 0.003000020980835
+
+[Fri, 18 Aug 17 07:45:49 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042349.1149
+Final Time: 1503042349.1369
+Total Elapsed Time: 0.022000789642334
+
+[Fri, 18 Aug 17 07:46:21 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042381.9658
+Final Time: 1503042381.9668
 Total Elapsed Time: 0.00099992752075195
 
-[Fri, 18 Aug 17 05:52:32 +0000][INFO] SQL Statement: DESCRIBE `test`.`user`
-Start Time: 1503035552.5411
-Final Time: 1503035552.5531
-Total Elapsed Time: 0.012001037597656
+[Fri, 18 Aug 17 07:46:21 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042381.9658
+Final Time: 1503042381.9668
+Total Elapsed Time: 0.00099992752075195
 
-[Fri, 18 Aug 17 05:52:32 +0000][INFO] SQL Statement: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`number` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
-Start Time: 1503035552.5541
-Final Time: 1503035552.5541
+[Fri, 18 Aug 17 07:46:21 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042381.9698
+Final Time: 1503042381.9918
+Total Elapsed Time: 0.022001981735229
+
+[Fri, 18 Aug 17 07:48:25 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042505.6218
+Final Time: 1503042505.6228
+Total Elapsed Time: 0.0010001659393311
+
+[Fri, 18 Aug 17 07:48:25 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042505.6218
+Final Time: 1503042505.6228
+Total Elapsed Time: 0.0010001659393311
+
+[Fri, 18 Aug 17 07:48:25 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042505.6258
+Final Time: 1503042505.6478
+Total Elapsed Time: 0.022000789642334
+
+[Fri, 18 Aug 17 07:48:45 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042525.563
+Final Time: 1503042525.565
+Total Elapsed Time: 0.0019998550415039
+
+[Fri, 18 Aug 17 07:48:45 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042525.563
+Final Time: 1503042525.565
+Total Elapsed Time: 0.0019998550415039
+
+[Fri, 18 Aug 17 07:48:45 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042525.568
+Final Time: 1503042525.592
+Total Elapsed Time: 0.024001121520996
+
+[Fri, 18 Aug 17 07:48:54 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042534.4095
+Final Time: 1503042534.4105
+Total Elapsed Time: 0.00099992752075195
+
+[Fri, 18 Aug 17 07:48:54 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042534.4095
+Final Time: 1503042534.4105
+Total Elapsed Time: 0.00099992752075195
+
+[Fri, 18 Aug 17 07:48:54 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042534.4145
+Final Time: 1503042534.4405
+Total Elapsed Time: 0.0260009765625
+
+[Fri, 18 Aug 17 07:49:03 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042543.515
+Final Time: 1503042543.517
+Total Elapsed Time: 0.002000093460083
+
+[Fri, 18 Aug 17 07:49:03 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042543.515
+Final Time: 1503042543.517
+Total Elapsed Time: 0.002000093460083
+
+[Fri, 18 Aug 17 07:49:03 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042543.519
+Final Time: 1503042543.546
+Total Elapsed Time: 0.027001857757568
+
+[Fri, 18 Aug 17 07:50:16 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042616.0252
+Final Time: 1503042616.0262
+Total Elapsed Time: 0.0010008811950684
+
+[Fri, 18 Aug 17 07:50:16 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042616.0252
+Final Time: 1503042616.0262
+Total Elapsed Time: 0.0010008811950684
+
+[Fri, 18 Aug 17 07:50:16 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042616.0292
+Final Time: 1503042616.0502
+Total Elapsed Time: 0.021001100540161
+
+[Fri, 18 Aug 17 07:50:56 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042656.6715
+Final Time: 1503042656.6775
+Total Elapsed Time: 0.0060009956359863
+
+[Fri, 18 Aug 17 07:50:56 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042656.6715
+Final Time: 1503042656.6775
+Total Elapsed Time: 0.0060009956359863
+
+[Fri, 18 Aug 17 07:50:56 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042656.6795
+Final Time: 1503042656.6975
+Total Elapsed Time: 0.018001079559326
+
+[Fri, 18 Aug 17 07:50:56 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042656.6715
+Final Time: 1503042656.6775
+Total Elapsed Time: 0.0060009956359863
+
+[Fri, 18 Aug 17 07:50:56 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042656.6795
+Final Time: 1503042656.6975
+Total Elapsed Time: 0.018001079559326
+
+[Fri, 18 Aug 17 07:50:56 +0000][INFO] SQL Statement: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` WHERE (`user`.`email` = :username OR `user`.`username` = :username) AND `user`.`password` = :password AND `user`.`active` = '1' LIMIT :APL0
+Start Time: 1503042656.6985
+Final Time: 1503042656.6995
+Total Elapsed Time: 0.00099992752075195
+
+[Fri, 18 Aug 17 07:54:42 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042882.4614
+Final Time: 1503042882.4624
+Total Elapsed Time: 0.00099992752075195
+
+[Fri, 18 Aug 17 07:54:42 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042882.4614
+Final Time: 1503042882.4624
+Total Elapsed Time: 0.00099992752075195
+
+[Fri, 18 Aug 17 07:54:42 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042882.4644
+Final Time: 1503042882.4794
+Total Elapsed Time: 0.015001058578491
+
+[Fri, 18 Aug 17 07:54:42 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042882.4614
+Final Time: 1503042882.4624
+Total Elapsed Time: 0.00099992752075195
+
+[Fri, 18 Aug 17 07:54:42 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042882.4644
+Final Time: 1503042882.4794
+Total Elapsed Time: 0.015001058578491
+
+[Fri, 18 Aug 17 07:54:42 +0000][INFO] SQL Statement: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` WHERE (`user`.`email` = :username OR `user`.`username` = :username) AND `user`.`password` = :password AND `user`.`active` = '1' LIMIT :APL0
+Start Time: 1503042882.4814
+Final Time: 1503042882.4824
+Total Elapsed Time: 0.0010001659393311
+
+[Fri, 18 Aug 17 07:54:48 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042888.0697
+Final Time: 1503042888.0737
+Total Elapsed Time: 0.004000186920166
+
+[Fri, 18 Aug 17 07:54:48 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042888.0697
+Final Time: 1503042888.0737
+Total Elapsed Time: 0.004000186920166
+
+[Fri, 18 Aug 17 07:54:48 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042888.0777
+Final Time: 1503042888.1067
+Total Elapsed Time: 0.029001951217651
+
+[Fri, 18 Aug 17 07:54:48 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042888.0697
+Final Time: 1503042888.0737
+Total Elapsed Time: 0.004000186920166
+
+[Fri, 18 Aug 17 07:54:48 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042888.0777
+Final Time: 1503042888.1067
+Total Elapsed Time: 0.029001951217651
+
+[Fri, 18 Aug 17 07:54:48 +0000][INFO] SQL Statement: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` WHERE (`user`.`email` = :username OR `user`.`username` = :username) AND `user`.`password` = :password AND `user`.`active` = '1' LIMIT :APL0
+Start Time: 1503042888.1097
+Final Time: 1503042888.1097
 Total Elapsed Time: 0
 
-[Fri, 18 Aug 17 06:05:13 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
-Start Time: 1503036313.1927
-Final Time: 1503036313.1937
+[Fri, 18 Aug 17 07:55:42 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042942.4708
+Final Time: 1503042942.4718
 Total Elapsed Time: 0.00099992752075195
 
-[Fri, 18 Aug 17 06:05:13 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
-Start Time: 1503036313.1927
-Final Time: 1503036313.1937
+[Fri, 18 Aug 17 07:55:42 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042942.4708
+Final Time: 1503042942.4718
 Total Elapsed Time: 0.00099992752075195
 
-[Fri, 18 Aug 17 06:05:13 +0000][INFO] SQL Statement: DESCRIBE `test`.`user`
-Start Time: 1503036313.1957
-Final Time: 1503036313.2097
-Total Elapsed Time: 0.01400089263916
+[Fri, 18 Aug 17 07:55:42 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042942.4728
+Final Time: 1503042942.4858
+Total Elapsed Time: 0.013001203536987
 
-[Fri, 18 Aug 17 06:05:13 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
-Start Time: 1503036313.1927
-Final Time: 1503036313.1937
+[Fri, 18 Aug 17 07:55:42 +0000][INFO] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503042942.4708
+Final Time: 1503042942.4718
 Total Elapsed Time: 0.00099992752075195
 
-[Fri, 18 Aug 17 06:05:13 +0000][INFO] SQL Statement: DESCRIBE `test`.`user`
-Start Time: 1503036313.1957
-Final Time: 1503036313.2097
-Total Elapsed Time: 0.01400089263916
+[Fri, 18 Aug 17 07:55:42 +0000][INFO] SQL Statement: DESCRIBE `user`
+Start Time: 1503042942.4728
+Final Time: 1503042942.4858
+Total Elapsed Time: 0.013001203536987
 
-[Fri, 18 Aug 17 06:05:13 +0000][INFO] SQL Statement: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`number` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
-Start Time: 1503036313.2117
-Final Time: 1503036313.2127
-Total Elapsed Time: 0.00099992752075195
+[Fri, 18 Aug 17 07:55:42 +0000][INFO] SQL Statement: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` WHERE (`user`.`email` = :username OR `user`.`username` = :username) AND `user`.`password` = :password AND `user`.`active` = '1' LIMIT :APL0
+Start Time: 1503042942.4878
+Final Time: 1503042942.4878
+Total Elapsed Time: 0
 
