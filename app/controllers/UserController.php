@@ -13,17 +13,7 @@ class UserController extends ControllerBase
      */
     public function indexAction()
     {
-        $users = [
-            [
-                'name' => 'Kenny Katzgrau',
-                'username' => 'katzgrau',
-            ],
-            [
-                'name' => 'Dan Horrigan',
-                'username' => 'dhrrgn',
-            ],
-        ];
-        Log::getInstance()->error($users);
+
     }
 
     /**
