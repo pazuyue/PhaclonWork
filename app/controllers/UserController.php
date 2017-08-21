@@ -34,7 +34,6 @@ class UserController extends ControllerBase
             $parameters = [];
         }
         $parameters["order"] = "id";
-
         $user = User::find($parameters);
 
         if (count($user) == 0) {
@@ -112,11 +111,12 @@ class UserController extends ControllerBase
         }
 
         $user = new User();
-        $user->sex = $this->request->getPost("sex");
-        $user->name = $this->request->getPost("name");
-        $user->username = $this->request->getPost("username");
-        $user->password = md5($this->request->getPost("password"));
-        $user->email = $this->request->getPost("email");
+        $user->sex = $this->request->getPost("sex","int");
+        $user->name = $this->request->getPost("name","string");
+        $user->username = $this->request->getPost("username","string");
+        $user->password = md5($this->request->getPost("password","string"));
+        $user->email = $this->request->getPost("email","email");
+
 
 
         if (!$user->save()) {
@@ -233,7 +233,7 @@ class UserController extends ControllerBase
             return;
         }
 
-        $this->flash->success("user was deleted successfully");
+        $this->flash->success("用户删除成功！");
 
         $this->dispatcher->forward([
             'controller' => "user",

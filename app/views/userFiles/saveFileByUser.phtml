@@ -1,0 +1,76 @@
+<?php
+/**
+ * @var \Phalcon\Mvc\View\Engine\Php $this
+ */
+?>
+<?php use Phalcon\Tag; ?>
+
+<div class="row">
+    <nav>
+        <ul class="pager">
+            <li class="previous"><?php echo $this->tag->linkTo(["user/search", "返回"]); ?></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="page-header">
+    <h1>文件信息</h1>
+</div>
+
+<?php echo $this->getContent(); ?>
+
+<div class="form-group">
+    <label for="Name" class="col-sm-2 control-label">文件名称</label>
+    <div class="col-sm-10">
+        <?php echo $this->tag->textField(["Name", "type" => "number", "class" => "form-control", "id" => "Name","readonly"=>"readonly"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="TempName" class="col-sm-2 control-label">临时文件名称</label>
+    <div class="col-sm-10">
+        <?php echo $this->tag->textField(["TempName", "type" => "number", "class" => "form-control", "id" => "TempName","readonly"=>"readonly"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="filSize" class="col-sm-2 control-label">文件大小</label>
+    <div class="col-sm-10">
+        <?php echo $this->tag->textField(["filSize", "type" => "number", "class" => "form-control", "id" => "filSize","readonly"=>"readonly"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fileType" class="col-sm-2 control-label">文件类型</label>
+    <div class="col-sm-10">
+        <?php echo $this->tag->textField(["fileType", "type" => "number", "class" => "form-control", "id" => "fileType","readonly"=>"readonly"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fileError" class="col-sm-2 control-label">文件错误</label>
+    <div class="col-sm-10">
+        <?php echo $this->tag->textField(["fileError", "type" => "number", "class" => "form-control", "id" => "fileError","readonly"=>"readonly"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fileKey" class="col-sm-2 control-label">上传表控件名</label>
+    <div class="col-sm-10">
+        <?php echo $this->tag->textField(["fileKey", "type" => "number", "class" => "form-control", "id" => "fileKey","readonly"=>"readonly"]) ?>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="fileExtension" class="col-sm-2 control-label">文件后綴</label>
+    <div class="col-sm-10">
+        <?php echo $this->tag->textField(["fileExtension", "type" => "number", "class" => "form-control", "id" => "fileExtension","readonly"=>"readonly"]) ?>
+    </div>
+</div>
+
+
+
+
+
+
+

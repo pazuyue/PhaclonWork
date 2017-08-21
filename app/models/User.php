@@ -61,7 +61,7 @@ class User extends \Phalcon\Mvc\Model
      */
     public function initialize()
     {
-        //$this->setSchema("test");
+        $this->setSchema("test");
 
         $eventsManager = new EventsManager();
 
@@ -70,7 +70,7 @@ class User extends \Phalcon\Mvc\Model
             "model:beforeSave",
             function (Event $event, $robot) {
                 if ($robot->name === "月光") {
-                    echo "月光 Doo isn't a robot!";
+                    echo "月光 是管理员不能添加";
                     return false;
                 }
 

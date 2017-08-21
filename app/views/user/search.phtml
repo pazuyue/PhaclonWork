@@ -9,14 +9,14 @@
 <div class="row">
     <nav>
         <ul class="pager">
-            <li class="previous"><?php echo $this->tag->linkTo(["user/index", "Go Back"]); ?></li>
-            <li class="next"><?php echo $this->tag->linkTo(["user/new", "Create "]); ?></li>
+            <li class="previous"><?php echo $this->tag->linkTo(["user/index", "返回"]); ?></li>
+            <li class="next"><?php echo $this->tag->linkTo(["user/new", "新增"]); ?></li>
         </ul>
     </nav>
 </div>
 
 <div class="page-header">
-    <h1>Search result</h1>
+    <h1>查询结果</h1>
 </div>
 
 <?php echo $this->getContent(); ?>
@@ -29,7 +29,6 @@
             <th>Sex</th>
             <th>Name</th>
             <th>Username</th>
-            <th>Password</th>
             <th>Email</th>
 
                 <th></th>
@@ -40,14 +39,16 @@
         <?php foreach ($page->items as $user): ?>
             <tr>
                 <td><?php echo $user->id ?></td>
-            <td><?php echo $user->sex ?></td>
-            <td><?php echo $user->name ?></td>
-            <td><?php echo $user->username ?></td>
-            <td><?php echo $user->password ?></td>
-            <td><?php echo $user->email ?></td>
+                <td><?php echo $user->sex ?></td>
+                <td><?php echo $user->name ?></td>
+                <td><?php echo $user->username ?></td>
+                <td><?php echo $user->email ?></td>
 
-                <td><?php echo $this->tag->linkTo(["user/edit/" . $user->id, "Edit"]); ?></td>
-                <td><?php echo $this->tag->linkTo(["user/delete/" . $user->id, "Delete"]); ?></td>
+                <td>
+                    <?php echo $this->tag->linkTo(["user/edit/" . $user->id, "修改"]); ?>
+                    <?php echo $this->tag->linkTo(["UserFiles/index/" . $user->id, "添加文档"]); ?>
+                </td>
+                <td><?php echo $this->tag->linkTo(["user/delete/" . $user->id, "删除"]); ?></td>
             </tr>
         <?php endforeach; ?>
         </tbody>
@@ -63,10 +64,10 @@
     <div class="col-sm-11">
         <nav>
             <ul class="pagination">
-                <li><?php echo $this->tag->linkTo("user/search", "First") ?></li>
-                <li><?php echo $this->tag->linkTo("user/search?page=" . $page->before, "Previous") ?></li>
-                <li><?php echo $this->tag->linkTo("user/search?page=" . $page->next, "Next") ?></li>
-                <li><?php echo $this->tag->linkTo("user/search?page=" . $page->last, "Last") ?></li>
+                <li><?php echo $this->tag->linkTo("user/search", "第一页") ?></li>
+                <li><?php echo $this->tag->linkTo("user/search?page=" . $page->before, "上一页") ?></li>
+                <li><?php echo $this->tag->linkTo("user/search?page=" . $page->next, "下一页") ?></li>
+                <li><?php echo $this->tag->linkTo("user/search?page=" . $page->last, "最后一页") ?></li>
             </ul>
         </nav>
     </div>
