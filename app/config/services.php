@@ -145,11 +145,3 @@ $di->setShared('dispatcher', function () {
 
     return $dispatcher;
 });
-
-
-
-$di->set('someComponent',function (){
-    $component = new SomeComponent("response", "other");
-    return $component;
-
-});

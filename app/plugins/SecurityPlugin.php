@@ -10,7 +10,6 @@ class SecurityPlugin extends Plugin
 
     public function beforeExecuteRoute(Event $event, Dispatcher $dispatcher)
     {
-
         // Check whether the "auth" variable exists in session to define the active role
         $auth = $this->session->get('auth');
         if (empty($auth)) {
@@ -29,7 +28,6 @@ class SecurityPlugin extends Plugin
 
         // Check if the Role have access to the controller (resource)
         $allowed = $acl->isAllowed($role, $controller, $action);
-
         if ($allowed != Acl::ALLOW) {
 
             // If he doesn't have access forward him to the index controller
@@ -81,7 +79,7 @@ class SecurityPlugin extends Plugin
             foreach ($roles as $role) {
 
                 foreach ($publicResources as $resource => $actions) {
-                    $acl->allow("Guests", $resource, $actions);
+                    $acl->allow("Guests", $resource, '*');
                 }
 
                 $acl->allow("Users", "*", '*');

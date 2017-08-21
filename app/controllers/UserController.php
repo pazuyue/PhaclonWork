@@ -38,13 +38,12 @@ class UserController extends ControllerBase
         $user = User::find($parameters);
 
         if (count($user) == 0) {
-            $this->flash->notice("The search did not find any user");
+            $this->flash->notice("用户列表为空");
 
             $this->dispatcher->forward([
                 "controller" => "user",
                 "action" => "index"
             ]);
-
             return;
         }
 
@@ -53,7 +52,6 @@ class UserController extends ControllerBase
             'limit'=> 10,
             'page' => $numberPage
         ]);
-
         $this->view->page = $paginator->getPaginate();
     }
 
@@ -77,7 +75,7 @@ class UserController extends ControllerBase
 
             $user = User::findFirstByid($id);
             if (!$user) {
-                $this->flash->error("user was not found");
+                $this->flash->error("没有找到用户");
 
                 $this->dispatcher->forward([
                     'controller' => "user",

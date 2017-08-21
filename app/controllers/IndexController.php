@@ -41,9 +41,7 @@ class IndexController extends ControllerBase
             );
 
             if ($user != false) {
-
                 $this->_registerSession($user);
-
                 $this->flash->success('Welcome ' . $user->name);
 
                 // Forward to the 'invoices' controller if the user is valid
@@ -62,6 +60,24 @@ class IndexController extends ControllerBase
                 )
             );
         }
+    }
+
+    public function userCancellationAction(){
+        $this->session->remove('auth');
+        $ruslt= $this->session->get('auth');
+        if(empty($ruslt))
+        {
+            $this->flash->success('注销成功！');
+        }else{
+            $this->flash->error('注销失败！');
+        }
+
+        return $this->dispatcher->forward(
+            array(
+                'controller' => 'index',
+                'action'     => 'index'
+            )
+        );
     }
 
 }

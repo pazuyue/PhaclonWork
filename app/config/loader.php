@@ -13,5 +13,7 @@ $loader->registerDirs(
         $config->application->pluginsDir,
         $config->application->globalsDir,
         $config->application->globalsCommonDir,
+        $config->application->pluginsListenerDir,
+
     ]
 )->register();

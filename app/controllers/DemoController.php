@@ -8,7 +8,7 @@
  */
 class DemoController
 {
-    //日记类收费
+    //日记类测试
     public function logTestAction()
     {
         $users = [

@@ -11,6 +11,7 @@ function pre_var($total){
     echo "<pre>";
     var_dump($total);
     echo "</pre>";
+    die();
 }
 
 /*检查目录是否存在，不存在新建*/

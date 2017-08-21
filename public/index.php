@@ -36,10 +36,13 @@ try {
      */
     include APP_PATH . '/config/loader.php';
 
+    include APP_PATH . '/config/eventsManager.php';
+
     /**
      * Handle the request
      */
     $application = new \Phalcon\Mvc\Application($di);
+
 
 
 
