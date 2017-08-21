@@ -81,7 +81,7 @@ class UserFilesController extends ControllerBase
                 }
             }
 
-            // 上传文件名
+            // 上传文件信息
             $this->view->id = $user_id;
             $this->tag->setDefault("Name", $file->getName());
             $this->tag->setDefault("TempName", $file->getTempName());
@@ -93,21 +93,9 @@ class UserFilesController extends ControllerBase
         }
     }
 
-
-    public function upload()
-    {
-        // 获取上传信息
-        if ($this->request->hasFiles()) {
-            //获取上传文件详细信息
-            foreach ($this->request->getUploadedFiles() as $file) {
-
-                // Print file details
-                echo $file->getName(), " ", $file->getSize(), "\n";
-
-                // Move the file into the application
-                //$file->moveTo('files/' . $file->getName());
-            }
-        }
+    public function getCookiesAction(){
+        $this->cookies->set('name', 'yueguang', time() + 7 * 86400);
+        $name=trim($this->cookies->get('name')->getValue());
+        return $name;
     }
-
 }

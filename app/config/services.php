@@ -8,8 +8,8 @@ use Phalcon\Mvc\View\Engine\Volt as VoltEngine;
 use Phalcon\Mvc\Model\Metadata\Memory as MetaDataAdapter;
 use Phalcon\Session\Adapter\Files as SessionAdapter;
 use Phalcon\Flash\Direct as Flash;
-
-
+use Phalcon\Crypt;
+use Phalcon\Http\Response\Cookies;
 
 use Phalcon\Mvc\Dispatcher;
 use Phalcon\Events\Manager as EventsManager;
@@ -121,6 +121,18 @@ $di->setShared('session', function () {
     $session->start();
 
     return $session;
+});
+
+$di->setShared('cookies', function () {
+    $cookies = new Cookies();
+    //$cookies->useEncryption(false);
+    return $cookies;
+});
+
+$di->setShared('crypt', function () {
+    $crypt = new Crypt();
+    $crypt->setKey('yueguang'); // 使用你自己的key！
+    return $crypt;
 });
 
 
