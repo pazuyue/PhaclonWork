@@ -1,0 +1,3113 @@
+[2017-08-21 6:07:33.177438] [notice] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+[2017-08-21 6:07:33.223440] [notice] DESCRIBE `user`
+[2017-08-21 6:07:33.231441] [notice] SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+[2017-08-21 6:08:24.593379] [notice] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+[2017-08-21 6:08:24.620381] [notice] DESCRIBE `user`
+[2017-08-21 6:08:24.625380] [notice] SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+[2017-08-21 6:11:15.901177] [notice] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+[2017-08-21 6:11:15.940180] [notice] DESCRIBE `user`
+[2017-08-21 6:11:15.947180] [notice] SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+[2017-08-21 6:11:52.637877] [notice] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+[2017-08-21 6:11:52.669879] [notice] DESCRIBE `user`
+[2017-08-21 6:11:52.674880] [notice] SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+[2017-08-21 6:12:10.489098] [notice] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+[2017-08-21 6:12:10.536099] [notice] DESCRIBE `user`
+[2017-08-21 6:12:10.543101] [notice] SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+[2017-08-21 6:13:11.015758] [notice] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+[2017-08-21 6:13:11.052759] [notice] DESCRIBE `user`
+[2017-08-21 6:13:11.059760] [notice] SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+[2017-08-21 6:19:04.158142] [notice] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503296344.1331
+Final Time: 1503296344.1361
+Total Elapsed Time: 0.003000020980835
+
+[2017-08-21 6:19:04.185142] [notice] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503296344.1331
+Final Time: 1503296344.1361
+Total Elapsed Time: 0.003000020980835
+
+[2017-08-21 6:19:04.189142] [notice] SQL Statement: DESCRIBE `user`
+Start Time: 1503296344.1611
+Final Time: 1503296344.1821
+Total Elapsed Time: 0.021000862121582
+
+[2017-08-21 6:19:04.194144] [notice] SQL Statement: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+Start Time: 1503296344.1331
+Final Time: 1503296344.1361
+Total Elapsed Time: 0.003000020980835
+
+[2017-08-21 6:19:04.199143] [notice] SQL Statement: DESCRIBE `user`
+Start Time: 1503296344.1611
+Final Time: 1503296344.1821
+Total Elapsed Time: 0.021000862121582
+
+[2017-08-21 6:19:04.203144] [notice] SQL Statement: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+Start Time: 1503296344.1901
+Final Time: 1503296344.1911
+Total Elapsed Time: 0.0010008811950684
+
+[2017-08-21 6:19:53.348695] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296393.3317
+结束时间: 1503296393.3337
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 6:19:53.379698] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296393.3317
+结束时间: 1503296393.3337
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 6:19:53.384697] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296393.3517
+结束时间: 1503296393.3767
+总共执行的时间: 0.025001049041748
+
+[2017-08-21 6:19:53.390698] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296393.3317
+结束时间: 1503296393.3337
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 6:19:53.394699] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296393.3517
+结束时间: 1503296393.3767
+总共执行的时间: 0.025001049041748
+
+[2017-08-21 6:19:53.398699] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+开始时间: 1503296393.3857
+结束时间: 1503296393.3867
+总共执行的时间: 0.0010008811950684
+
+[2017-08-21 6:21:09.232403] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296469.2124
+结束时间: 1503296469.2154
+总共执行的时间: 0.0029997825622559
+
+[2017-08-21 6:21:09.277405] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296469.2124
+结束时间: 1503296469.2154
+总共执行的时间: 0.0029997825622559
+
+[2017-08-21 6:21:09.282406] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296469.2354
+结束时间: 1503296469.2734
+总共执行的时间: 0.038002014160156
+
+[2017-08-21 6:21:09.289406] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296469.2124
+结束时间: 1503296469.2154
+总共执行的时间: 0.0029997825622559
+
+[2017-08-21 6:21:09.293406] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296469.2354
+结束时间: 1503296469.2734
+总共执行的时间: 0.038002014160156
+
+[2017-08-21 6:21:09.297406] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+开始时间: 1503296469.2854
+结束时间: 1503296469.2854
+总共执行的时间: 0
+
+[2017-08-21 6:21:24.777843] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296484.7618
+结束时间: 1503296484.7628
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:21:24.821846] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296484.7618
+结束时间: 1503296484.7628
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:21:24.827846] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296484.7808
+结束时间: 1503296484.8178
+总共执行的时间: 0.037002086639404
+
+[2017-08-21 6:21:24.832847] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296484.7618
+结束时间: 1503296484.7628
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:21:24.837846] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296484.7808
+结束时间: 1503296484.8178
+总共执行的时间: 0.037002086639404
+
+[2017-08-21 6:21:24.841846] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+开始时间: 1503296484.8298
+结束时间: 1503296484.8308
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:23:06.321418] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296586.3054
+结束时间: 1503296586.3064
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:23:06.367419] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296586.3054
+结束时间: 1503296586.3064
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:23:06.372421] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296586.3244
+结束时间: 1503296586.3634
+总共执行的时间: 0.039001941680908
+
+[2017-08-21 6:23:06.378421] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296586.3054
+结束时间: 1503296586.3064
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:23:06.383420] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296586.3244
+结束时间: 1503296586.3634
+总共执行的时间: 0.039001941680908
+
+[2017-08-21 6:23:06.387422] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+开始时间: 1503296586.3744
+结束时间: 1503296586.3744
+总共执行的时间: 0
+
+[2017-08-21 6:24:16.790740] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296656.7747
+结束时间: 1503296656.7757
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:24:16.834743] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296656.7747
+结束时间: 1503296656.7757
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:24:16.839744] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296656.7937
+结束时间: 1503296656.8307
+总共执行的时间: 0.037003040313721
+
+[2017-08-21 6:24:29.651958] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296669.63
+结束时间: 1503296669.631
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:24:29.680959] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296669.63
+结束时间: 1503296669.631
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:24:29.684959] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296669.655
+结束时间: 1503296669.678
+总共执行的时间: 0.023000955581665
+
+[2017-08-21 6:24:36.389122] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296676.3721
+结束时间: 1503296676.3761
+总共执行的时间: 0.0040009021759033
+
+[2017-08-21 6:24:36.430125] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296676.3721
+结束时间: 1503296676.3761
+总共执行的时间: 0.0040009021759033
+
+[2017-08-21 6:24:36.435126] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296676.3911
+结束时间: 1503296676.4261
+总共执行的时间: 0.035001993179321
+
+[2017-08-21 6:24:47.672677] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296687.6557
+结束时间: 1503296687.6587
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 6:24:47.713679] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296687.6557
+结束时间: 1503296687.6587
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 6:24:47.718678] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296687.6757
+结束时间: 1503296687.7097
+总共执行的时间: 0.03400182723999
+
+[2017-08-21 6:24:47.724679] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296687.6557
+结束时间: 1503296687.6587
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 6:24:47.728679] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296687.6757
+结束时间: 1503296687.7097
+总共执行的时间: 0.03400182723999
+
+[2017-08-21 6:24:47.732680] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` WHERE `user`.`username` LIKE :username ORDER BY `user`.`id`
+开始时间: 1503296687.7207
+结束时间: 1503296687.7217
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:25:27.066992] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296727.055
+结束时间: 1503296727.057
+总共执行的时间: 0.0020010471343994
+
+[2017-08-21 6:25:27.107994] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296727.055
+结束时间: 1503296727.057
+总共执行的时间: 0.0020010471343994
+
+[2017-08-21 6:25:27.113995] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296727.07
+结束时间: 1503296727.103
+总共执行的时间: 0.033001899719238
+
+[2017-08-21 6:25:27.123995] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296727.055
+结束时间: 1503296727.057
+总共执行的时间: 0.0020010471343994
+
+[2017-08-21 6:25:27.129996] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296727.07
+结束时间: 1503296727.103
+总共执行的时间: 0.033001899719238
+
+[2017-08-21 6:25:27.136996] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` WHERE `user`.`username` LIKE :username ORDER BY `user`.`id`
+开始时间: 1503296727.118
+结束时间: 1503296727.119
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:26:24.670485] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296784.6525
+结束时间: 1503296784.6555
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 6:26:24.704487] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296784.6525
+结束时间: 1503296784.6555
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 6:26:24.710486] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296784.6735
+结束时间: 1503296784.7015
+总共执行的时间: 0.028002023696899
+
+[2017-08-21 6:26:24.716487] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296784.6525
+结束时间: 1503296784.6555
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 6:26:24.720488] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296784.6735
+结束时间: 1503296784.7015
+总共执行的时间: 0.028002023696899
+
+[2017-08-21 6:26:24.724488] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` WHERE `user`.`username` LIKE :username ORDER BY `user`.`id`
+开始时间: 1503296784.7115
+结束时间: 1503296784.7135
+总共执行的时间: 0.0020010471343994
+
+[2017-08-21 6:26:32.958959] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296792.94
+结束时间: 1503296792.942
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 6:26:32.984961] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296792.94
+结束时间: 1503296792.942
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 6:26:32.988960] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296792.961
+结束时间: 1503296792.982
+总共执行的时间: 0.021002054214478
+
+[2017-08-21 6:26:32.994961] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296792.94
+结束时间: 1503296792.942
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 6:26:32.998961] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296792.961
+结束时间: 1503296792.982
+总共执行的时间: 0.021002054214478
+
+[2017-08-21 6:26:33.002962] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+开始时间: 1503296792.991
+结束时间: 1503296792.992
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:26:36.307151] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296796.2901
+结束时间: 1503296796.2931
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 6:26:36.339153] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296796.2901
+结束时间: 1503296796.2931
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 6:26:36.344152] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296796.3102
+结束时间: 1503296796.3362
+总共执行的时间: 0.0260009765625
+
+[2017-08-21 6:26:36.350152] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296796.2901
+结束时间: 1503296796.2931
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 6:26:36.354152] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296796.3102
+结束时间: 1503296796.3362
+总共执行的时间: 0.0260009765625
+
+[2017-08-21 6:26:36.358154] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+开始时间: 1503296796.3462
+结束时间: 1503296796.3462
+总共执行的时间: 0
+
+[2017-08-21 6:26:39.396327] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296799.3763
+结束时间: 1503296799.3803
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:26:39.435329] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296799.3763
+结束时间: 1503296799.3803
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:26:39.440330] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296799.3983
+结束时间: 1503296799.4313
+总共执行的时间: 0.033000946044922
+
+[2017-08-21 6:26:39.447329] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296799.3763
+结束时间: 1503296799.3803
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:26:39.451330] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296799.3983
+结束时间: 1503296799.4313
+总共执行的时间: 0.033000946044922
+
+[2017-08-21 6:26:39.455331] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+开始时间: 1503296799.4423
+结束时间: 1503296799.4433
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 6:26:44.568623] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296804.5536
+结束时间: 1503296804.5546
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:26:44.607625] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296804.5536
+结束时间: 1503296804.5546
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:26:44.612626] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296804.5706
+结束时间: 1503296804.6046
+总共执行的时间: 0.034002065658569
+
+[2017-08-21 6:26:44.617625] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296804.5536
+结束时间: 1503296804.5546
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:26:44.621625] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296804.5706
+结束时间: 1503296804.6046
+总共执行的时间: 0.034002065658569
+
+[2017-08-21 6:26:44.626626] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` WHERE `user`.`username` LIKE :username ORDER BY `user`.`id`
+开始时间: 1503296804.6146
+结束时间: 1503296804.6146
+总共执行的时间: 0
+
+[2017-08-21 6:26:48.332839] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296808.3158
+结束时间: 1503296808.3198
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:26:48.369841] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296808.3158
+结束时间: 1503296808.3198
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:26:48.374840] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296808.3358
+结束时间: 1503296808.3668
+总共执行的时间: 0.031000852584839
+
+[2017-08-21 6:26:48.380841] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296808.3158
+结束时间: 1503296808.3198
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:26:48.384841] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296808.3358
+结束时间: 1503296808.3668
+总共执行的时间: 0.031000852584839
+
+[2017-08-21 6:26:48.388842] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` WHERE `user`.`username` LIKE :username ORDER BY `user`.`id`
+开始时间: 1503296808.3768
+结束时间: 1503296808.3778
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:27:03.579710] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296823.5647
+结束时间: 1503296823.5657
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 6:27:03.619713] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296823.5647
+结束时间: 1503296823.5657
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 6:27:03.623713] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296823.5827
+结束时间: 1503296823.6157
+总共执行的时间: 0.033001899719238
+
+[2017-08-21 6:27:03.628712] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296823.5647
+结束时间: 1503296823.5657
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 6:27:03.632714] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296823.5827
+结束时间: 1503296823.6157
+总共执行的时间: 0.033001899719238
+
+[2017-08-21 6:27:03.636713] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+开始时间: 1503296823.6257
+结束时间: 1503296823.6257
+总共执行的时间: 0
+
+[2017-08-21 6:27:50.608401] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296870.5934
+结束时间: 1503296870.5944
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:27:50.648402] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296870.5934
+结束时间: 1503296870.5944
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:27:50.652403] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296870.6114
+结束时间: 1503296870.6454
+总共执行的时间: 0.03400182723999
+
+[2017-08-21 6:27:50.658402] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296870.5934
+结束时间: 1503296870.5944
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:27:50.662404] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296870.6114
+结束时间: 1503296870.6454
+总共执行的时间: 0.03400182723999
+
+[2017-08-21 6:27:50.666404] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` ORDER BY `user`.`id`
+开始时间: 1503296870.6544
+结束时间: 1503296870.6554
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:28:55.651720] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296935.6327
+结束时间: 1503296935.6347
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 6:28:55.691721] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296935.6327
+结束时间: 1503296935.6347
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 6:28:55.696722] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296935.6557
+结束时间: 1503296935.6877
+总共执行的时间: 0.032001972198486
+
+[2017-08-21 6:28:55.702723] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503296935.6327
+结束时间: 1503296935.6347
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 6:28:55.706722] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503296935.6557
+结束时间: 1503296935.6877
+总共执行的时间: 0.032001972198486
+
+[2017-08-21 6:28:55.711723] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503296935.6987
+结束时间: 1503296935.6997
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:36:50.751338] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503297410.7323
+结束时间: 1503297410.7333
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:36:50.780339] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503297410.7323
+结束时间: 1503297410.7333
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:36:50.784338] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503297410.7523
+结束时间: 1503297410.7773
+总共执行的时间: 0.025001049041748
+
+[2017-08-21 6:36:50.789340] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'user' AND `TABLE_SCHEMA` = DATABASE()
+开始时间: 1503297410.7323
+结束时间: 1503297410.7333
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:36:50.793339] [notice] SQL语句: DESCRIBE `user`
+开始时间: 1503297410.7523
+结束时间: 1503297410.7773
+总共执行的时间: 0.025001049041748
+
+[2017-08-21 6:36:50.797339] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503297410.7863
+结束时间: 1503297410.7863
+总共执行的时间: 0
+
+[2017-08-21 6:43:45.680268] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297825.6563
+结束时间: 1503297825.6583
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 6:43:45.706269] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297825.6563
+结束时间: 1503297825.6583
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 6:43:45.710269] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503297825.6823
+结束时间: 1503297825.7033
+总共执行的时间: 0.021002054214478
+
+[2017-08-21 6:43:45.715270] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297825.6563
+结束时间: 1503297825.6583
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 6:43:45.719270] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503297825.6823
+结束时间: 1503297825.7033
+总共执行的时间: 0.021002054214478
+
+[2017-08-21 6:43:45.724271] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503297825.7123
+结束时间: 1503297825.7133
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:43:45.730271] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297825.6563
+结束时间: 1503297825.6583
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 6:43:45.734271] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503297825.6823
+结束时间: 1503297825.7033
+总共执行的时间: 0.021002054214478
+
+[2017-08-21 6:43:45.739272] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503297825.7123
+结束时间: 1503297825.7133
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:43:45.743272] [notice] SQL语句: UPDATE `test`.`user` SET `sex` = ?, `name` = ?, `username` = ?, `password` = ?, `email` = ?, `active` = ?, `Jurisdiction` = ?, `addtime` = ? WHERE `id` = ?
+开始时间: 1503297825.7263
+结束时间: 1503297825.7273
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 6:43:54.194755] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297834.1738
+结束时间: 1503297834.1778
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:43:54.226757] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297834.1738
+结束时间: 1503297834.1778
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:43:54.231756] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503297834.1978
+结束时间: 1503297834.2208
+总共执行的时间: 0.023000955581665
+
+[2017-08-21 6:43:54.236757] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297834.1738
+结束时间: 1503297834.1778
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:43:54.241758] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503297834.1978
+结束时间: 1503297834.2208
+总共执行的时间: 0.023000955581665
+
+[2017-08-21 6:43:54.245758] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :id AND `user`.`sex` = :sex AND `user`.`name` LIKE :name AND `user`.`username` LIKE :username AND `user`.`password` LIKE :password AND `user`.`email` LIKE :email ORDER BY `user`.`id`
+开始时间: 1503297834.2338
+结束时间: 1503297834.2338
+总共执行的时间: 0
+
+[2017-08-21 6:44:04.567348] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297844.5463
+结束时间: 1503297844.5503
+总共执行的时间: 0.0040011405944824
+
+[2017-08-21 6:44:04.604351] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297844.5463
+结束时间: 1503297844.5503
+总共执行的时间: 0.0040011405944824
+
+[2017-08-21 6:44:04.609350] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503297844.5703
+结束时间: 1503297844.6014
+总共执行的时间: 0.031002044677734
+
+[2017-08-21 6:44:04.614351] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297844.5463
+结束时间: 1503297844.5503
+总共执行的时间: 0.0040011405944824
+
+[2017-08-21 6:44:04.618351] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503297844.5703
+结束时间: 1503297844.6014
+总共执行的时间: 0.031002044677734
+
+[2017-08-21 6:44:04.622351] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503297844.6114
+结束时间: 1503297844.6124
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:44:10.090665] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297850.0767
+结束时间: 1503297850.0777
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:44:10.139667] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297850.0767
+结束时间: 1503297850.0777
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:44:10.143667] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503297850.0937
+结束时间: 1503297850.1377
+总共执行的时间: 0.044002056121826
+
+[2017-08-21 6:44:10.149667] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297850.0767
+结束时间: 1503297850.0777
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:44:10.153667] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503297850.0937
+结束时间: 1503297850.1377
+总共执行的时间: 0.044002056121826
+
+[2017-08-21 6:44:10.157668] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` ORDER BY `user`.`id`
+开始时间: 1503297850.1457
+结束时间: 1503297850.1467
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:45:03.546721] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297903.5397
+结束时间: 1503297903.5407
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:45:03.571723] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297903.5397
+结束时间: 1503297903.5407
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:45:03.575723] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503297903.5487
+结束时间: 1503297903.5687
+总共执行的时间: 0.02000093460083
+
+[2017-08-21 6:46:05.211246] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297965.1932
+结束时间: 1503297965.1952
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 6:46:05.243248] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503297965.1932
+结束时间: 1503297965.1952
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 6:46:05.248249] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503297965.2122
+结束时间: 1503297965.2402
+总共执行的时间: 0.028002023696899
+
+[2017-08-21 6:46:57.502216] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298017.4892
+结束时间: 1503298017.4902
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 6:46:57.544219] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298017.4892
+结束时间: 1503298017.4902
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 6:46:57.549218] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298017.5052
+结束时间: 1503298017.5412
+总共执行的时间: 0.036002159118652
+
+[2017-08-21 6:46:57.555218] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298017.4892
+结束时间: 1503298017.4902
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 6:46:57.560219] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298017.5052
+结束时间: 1503298017.5412
+总共执行的时间: 0.036002159118652
+
+[2017-08-21 6:46:57.564219] [notice] SQL语句: INSERT INTO `test`.`user` (`sex`, `name`, `username`, `password`, `email`, `active`, `Jurisdiction`, `addtime`) VALUES (?, ?, ?, ?, ?, DEFAULT, DEFAULT, DEFAULT)
+开始时间: 1503298017.5512
+结束时间: 1503298017.5512
+总共执行的时间: 0
+
+[2017-08-21 6:48:29.991657] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298109.9757
+结束时间: 1503298109.9767
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:48:30.026659] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298109.9757
+结束时间: 1503298109.9767
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:48:30.030659] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298109.9937
+结束时间: 1503298110.0237
+总共执行的时间: 0.030001878738403
+
+[2017-08-21 6:48:30.036660] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298109.9757
+结束时间: 1503298109.9767
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:48:30.041661] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298109.9937
+结束时间: 1503298110.0237
+总共执行的时间: 0.030001878738403
+
+[2017-08-21 6:48:30.045660] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`sex` = :sex AND `user`.`name` LIKE :name AND `user`.`username` LIKE :username AND `user`.`password` LIKE :password AND `user`.`email` LIKE :email ORDER BY `user`.`id`
+开始时间: 1503298110.0327
+结束时间: 1503298110.0337
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:48:36.238773] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298116.2238
+结束时间: 1503298116.2248
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:48:36.277775] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298116.2238
+结束时间: 1503298116.2248
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:48:36.281775] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298116.2418
+结束时间: 1503298116.2738
+总共执行的时间: 0.032002210617065
+
+[2017-08-21 6:48:36.288775] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298116.2238
+结束时间: 1503298116.2248
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:48:36.292776] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298116.2418
+结束时间: 1503298116.2738
+总共执行的时间: 0.032002210617065
+
+[2017-08-21 6:48:36.296776] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`sex` = :sex AND `user`.`name` LIKE :name AND `user`.`username` LIKE :username AND `user`.`email` LIKE :email ORDER BY `user`.`id`
+开始时间: 1503298116.2848
+结束时间: 1503298116.2848
+总共执行的时间: 0
+
+[2017-08-21 6:49:06.578206] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298146.5642
+结束时间: 1503298146.5652
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 6:49:06.612207] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298146.5642
+结束时间: 1503298146.5652
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 6:49:06.616208] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298146.5822
+结束时间: 1503298146.6092
+总共执行的时间: 0.027002096176147
+
+[2017-08-21 6:49:06.622209] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298146.5642
+结束时间: 1503298146.5652
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 6:49:06.626209] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298146.5822
+结束时间: 1503298146.6092
+总共执行的时间: 0.027002096176147
+
+[2017-08-21 6:49:06.630208] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`sex` = :sex AND `user`.`name` LIKE :name AND `user`.`username` LIKE :username AND `user`.`password` LIKE :password AND `user`.`email` LIKE :email ORDER BY `user`.`id`
+开始时间: 1503298146.6182
+结束时间: 1503298146.6192
+总共执行的时间: 0.0010011196136475
+
+[2017-08-21 6:49:31.222373] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298171.2094
+结束时间: 1503298171.2104
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:49:31.252374] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298171.2094
+结束时间: 1503298171.2104
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:49:31.256375] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298171.2234
+结束时间: 1503298171.2504
+总共执行的时间: 0.027002096176147
+
+[2017-08-21 6:49:31.262375] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298171.2094
+结束时间: 1503298171.2104
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:49:31.266375] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298171.2234
+结束时间: 1503298171.2504
+总共执行的时间: 0.027002096176147
+
+[2017-08-21 6:49:31.270375] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`sex` = :sex AND `user`.`name` LIKE :name AND `user`.`username` LIKE :username AND `user`.`password` LIKE :password AND `user`.`email` LIKE :email ORDER BY `user`.`id`
+开始时间: 1503298171.2584
+结束时间: 1503298171.2594
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 6:49:33.404048] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298173.386
+结束时间: 1503298173.39
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:49:33.441051] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298173.386
+结束时间: 1503298173.39
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:49:33.519056] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298173.41
+结束时间: 1503298173.4381
+总共执行的时间: 0.028001070022583
+
+[2017-08-21 6:49:33.539057] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298173.386
+结束时间: 1503298173.39
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:49:33.548058] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298173.41
+结束时间: 1503298173.4381
+总共执行的时间: 0.028001070022583
+
+[2017-08-21 6:49:33.558058] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`sex` = :sex AND `user`.`name` LIKE :name AND `user`.`username` LIKE :username AND `user`.`email` LIKE :email ORDER BY `user`.`id`
+开始时间: 1503298173.5241
+结束时间: 1503298173.5251
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:49:43.531502] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298183.5185
+结束时间: 1503298183.5195
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:49:43.569504] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298183.5185
+结束时间: 1503298183.5195
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:49:43.573504] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298183.5345
+结束时间: 1503298183.5665
+总共执行的时间: 0.03200101852417
+
+[2017-08-21 6:49:43.579504] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298183.5185
+结束时间: 1503298183.5195
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:49:43.583504] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298183.5345
+结束时间: 1503298183.5665
+总共执行的时间: 0.03200101852417
+
+[2017-08-21 6:49:43.587506] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`sex` = :sex AND `user`.`name` LIKE :name AND `user`.`username` LIKE :username AND `user`.`email` LIKE :email ORDER BY `user`.`id`
+开始时间: 1503298183.5755
+结束时间: 1503298183.5765
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 6:49:50.955202] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298190.9372
+结束时间: 1503298190.9412
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:49:50.990204] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298190.9372
+结束时间: 1503298190.9412
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:49:50.994204] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298190.9582
+结束时间: 1503298190.9872
+总共执行的时间: 0.02900218963623
+
+[2017-08-21 6:49:50.999203] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503298190.9372
+结束时间: 1503298190.9412
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 6:49:51.003205] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503298190.9582
+结束时间: 1503298190.9872
+总共执行的时间: 0.02900218963623
+
+[2017-08-21 6:49:51.007205] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` ORDER BY `user`.`id`
+开始时间: 1503298190.9962
+结束时间: 1503298190.9962
+总共执行的时间: 0
+
+[2017-08-21 7:03:57.986916] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299037.9659
+结束时间: 1503299037.9719
+总共执行的时间: 0.0060000419616699
+
+[2017-08-21 7:03:58.017918] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299037.9659
+结束时间: 1503299037.9719
+总共执行的时间: 0.0060000419616699
+
+[2017-08-21 7:03:58.021918] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299037.9879
+结束时间: 1503299038.0149
+总共执行的时间: 0.027002096176147
+
+[2017-08-21 7:03:58.026917] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299037.9659
+结束时间: 1503299037.9719
+总共执行的时间: 0.0060000419616699
+
+[2017-08-21 7:03:58.031919] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299037.9879
+结束时间: 1503299038.0149
+总共执行的时间: 0.027002096176147
+
+[2017-08-21 7:03:58.035918] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` ORDER BY `user`.`id`
+开始时间: 1503299038.0239
+结束时间: 1503299038.0239
+总共执行的时间: 0
+
+[2017-08-21 7:06:31.979629] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299191.9556
+结束时间: 1503299191.9606
+总共执行的时间: 0.0050010681152344
+
+[2017-08-21 7:06:32.016632] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299191.9556
+结束时间: 1503299191.9606
+总共执行的时间: 0.0050010681152344
+
+[2017-08-21 7:06:32.021631] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299191.9826
+结束时间: 1503299192.0136
+总共执行的时间: 0.031002044677734
+
+[2017-08-21 7:06:32.027631] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299191.9556
+结束时间: 1503299191.9606
+总共执行的时间: 0.0050010681152344
+
+[2017-08-21 7:06:32.031632] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299191.9826
+结束时间: 1503299192.0136
+总共执行的时间: 0.031002044677734
+
+[2017-08-21 7:06:32.035633] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` ORDER BY `user`.`id`
+开始时间: 1503299192.0236
+结束时间: 1503299192.0236
+总共执行的时间: 0
+
+[2017-08-21 7:07:12.036983] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299232.022
+结束时间: 1503299232.024
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:07:12.072984] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299232.022
+结束时间: 1503299232.024
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:07:12.076984] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299232.04
+结束时间: 1503299232.07
+总共执行的时间: 0.030001878738403
+
+[2017-08-21 7:07:12.082984] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299232.022
+结束时间: 1503299232.024
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:07:12.087985] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299232.04
+结束时间: 1503299232.07
+总共执行的时间: 0.030001878738403
+
+[2017-08-21 7:07:12.091985] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` ORDER BY `user`.`id`
+开始时间: 1503299232.079
+结束时间: 1503299232.08
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:07:58.144371] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299278.1324
+结束时间: 1503299278.1334
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:07:58.178373] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299278.1324
+结束时间: 1503299278.1334
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:07:58.183372] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299278.1464
+结束时间: 1503299278.1744
+总共执行的时间: 0.028001070022583
+
+[2017-08-21 7:07:58.189373] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299278.1324
+结束时间: 1503299278.1334
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:07:58.193373] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299278.1464
+结束时间: 1503299278.1744
+总共执行的时间: 0.028001070022583
+
+[2017-08-21 7:07:58.197374] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503299278.1854
+结束时间: 1503299278.1864
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:08:34.935077] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299314.9171
+结束时间: 1503299314.9191
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 7:08:34.970079] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299314.9171
+结束时间: 1503299314.9191
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 7:08:34.974080] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299314.9381
+结束时间: 1503299314.9661
+总共执行的时间: 0.028002023696899
+
+[2017-08-21 7:08:34.980079] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299314.9171
+结束时间: 1503299314.9191
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 7:08:34.983081] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299314.9381
+结束时间: 1503299314.9661
+总共执行的时间: 0.028002023696899
+
+[2017-08-21 7:08:34.987081] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503299314.9761
+结束时间: 1503299314.9771
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:10:22.273397] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299422.2544
+结束时间: 1503299422.2594
+总共执行的时间: 0.005000114440918
+
+[2017-08-21 7:10:22.308399] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299422.2544
+结束时间: 1503299422.2594
+总共执行的时间: 0.005000114440918
+
+[2017-08-21 7:10:22.312400] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299422.2764
+结束时间: 1503299422.3044
+总共执行的时间: 0.028002023696899
+
+[2017-08-21 7:10:22.317400] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299422.2544
+结束时间: 1503299422.2594
+总共执行的时间: 0.005000114440918
+
+[2017-08-21 7:10:22.321400] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299422.2764
+结束时间: 1503299422.3044
+总共执行的时间: 0.028002023696899
+
+[2017-08-21 7:10:22.325401] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503299422.3144
+结束时间: 1503299422.3154
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:11:59.205080] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299519.1861
+结束时间: 1503299519.1871
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:11:59.233082] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299519.1861
+结束时间: 1503299519.1871
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:11:59.237082] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299519.2081
+结束时间: 1503299519.2301
+总共执行的时间: 0.022001981735229
+
+[2017-08-21 7:11:59.243082] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299519.1861
+结束时间: 1503299519.1871
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:11:59.247082] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299519.2081
+结束时间: 1503299519.2301
+总共执行的时间: 0.022001981735229
+
+[2017-08-21 7:11:59.251082] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503299519.2391
+结束时间: 1503299519.2401
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:13:31.216342] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299611.1973
+结束时间: 1503299611.2003
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:13:31.250344] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299611.1973
+结束时间: 1503299611.2003
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:13:31.254344] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299611.2183
+结束时间: 1503299611.2473
+总共执行的时间: 0.029001951217651
+
+[2017-08-21 7:13:31.259345] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299611.1973
+结束时间: 1503299611.2003
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:13:31.263345] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299611.2183
+结束时间: 1503299611.2473
+总共执行的时间: 0.029001951217651
+
+[2017-08-21 7:13:31.267345] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` ORDER BY `user`.`id`
+开始时间: 1503299611.2563
+结束时间: 1503299611.2563
+总共执行的时间: 0
+
+[2017-08-21 7:13:34.068506] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299614.0605
+结束时间: 1503299614.0615
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:13:34.093507] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299614.0605
+结束时间: 1503299614.0615
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:13:34.097507] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299614.0695
+结束时间: 1503299614.0905
+总共执行的时间: 0.021001100540161
+
+[2017-08-21 7:13:34.103507] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299614.0605
+结束时间: 1503299614.0615
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:13:34.108508] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299614.0695
+结束时间: 1503299614.0905
+总共执行的时间: 0.021001100540161
+
+[2017-08-21 7:13:34.113508] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` ORDER BY `user`.`id`
+开始时间: 1503299614.0985
+结束时间: 1503299614.0995
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:13:36.942670] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299616.9267
+结束时间: 1503299616.9277
+总共执行的时间: 0.0010011196136475
+
+[2017-08-21 7:13:36.975672] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299616.9267
+结束时间: 1503299616.9277
+总共执行的时间: 0.0010011196136475
+
+[2017-08-21 7:13:36.979672] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299616.9447
+结束时间: 1503299616.9717
+总共执行的时间: 0.027001142501831
+
+[2017-08-21 7:13:36.984673] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299616.9267
+结束时间: 1503299616.9277
+总共执行的时间: 0.0010011196136475
+
+[2017-08-21 7:13:36.988672] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299616.9447
+结束时间: 1503299616.9717
+总共执行的时间: 0.027001142501831
+
+[2017-08-21 7:13:36.992672] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503299616.9817
+结束时间: 1503299616.9817
+总共执行的时间: 0
+
+[2017-08-21 7:14:01.040049] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299641.033
+结束时间: 1503299641.034
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:14:01.065049] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299641.033
+结束时间: 1503299641.034
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:14:01.068049] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299641.041
+结束时间: 1503299641.0621
+总共执行的时间: 0.021001100540161
+
+[2017-08-21 7:14:01.075051] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299641.033
+结束时间: 1503299641.034
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:14:01.078051] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299641.041
+结束时间: 1503299641.0621
+总共执行的时间: 0.021001100540161
+
+[2017-08-21 7:14:01.082051] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503299641.071
+结束时间: 1503299641.0721
+总共执行的时间: 0.0010011196136475
+
+[2017-08-21 7:18:08.321192] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299888.2962
+结束时间: 1503299888.2992
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:18:08.350193] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299888.2962
+结束时间: 1503299888.2992
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:18:08.355194] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299888.3242
+结束时间: 1503299888.3472
+总共执行的时间: 0.023000955581665
+
+[2017-08-21 7:18:08.361195] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299888.2962
+结束时间: 1503299888.2992
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:18:08.365195] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299888.3242
+结束时间: 1503299888.3472
+总共执行的时间: 0.023000955581665
+
+[2017-08-21 7:18:08.369194] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503299888.3572
+结束时间: 1503299888.3582
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:18:55.695902] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299935.6769
+结束时间: 1503299935.6819
+总共执行的时间: 0.0049998760223389
+
+[2017-08-21 7:18:55.726903] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299935.6769
+结束时间: 1503299935.6819
+总共执行的时间: 0.0049998760223389
+
+[2017-08-21 7:18:55.730904] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299935.6989
+结束时间: 1503299935.7239
+总共执行的时间: 0.025002002716064
+
+[2017-08-21 7:18:55.736903] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299935.6769
+结束时间: 1503299935.6819
+总共执行的时间: 0.0049998760223389
+
+[2017-08-21 7:18:55.740905] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299935.6989
+结束时间: 1503299935.7239
+总共执行的时间: 0.025002002716064
+
+[2017-08-21 7:18:55.743905] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503299935.7329
+结束时间: 1503299935.7339
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:19:01.481818] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299941.4668
+结束时间: 1503299941.4678
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:19:01.518821] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299941.4668
+结束时间: 1503299941.4678
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:19:01.522820] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299941.4848
+结束时间: 1503299941.5148
+总共执行的时间: 0.030002117156982
+
+[2017-08-21 7:19:01.527822] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299941.4668
+结束时间: 1503299941.4678
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:19:01.531821] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299941.4848
+结束时间: 1503299941.5148
+总共执行的时间: 0.030002117156982
+
+[2017-08-21 7:19:01.535821] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503299941.5238
+结束时间: 1503299941.5248
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:19:17.879503] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299957.8705
+结束时间: 1503299957.8715
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:19:17.908504] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299957.8705
+结束时间: 1503299957.8715
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:19:17.912503] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299957.8805
+结束时间: 1503299957.9045
+总共执行的时间: 0.024001121520996
+
+[2017-08-21 7:19:17.917505] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299957.8705
+结束时间: 1503299957.8715
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:19:17.921504] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299957.8805
+结束时间: 1503299957.9045
+总共执行的时间: 0.024001121520996
+
+[2017-08-21 7:19:17.924504] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503299957.9135
+结束时间: 1503299957.9145
+总共执行的时间: 0.0010011196136475
+
+[2017-08-21 7:19:19.833614] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299959.8186
+结束时间: 1503299959.8196
+总共执行的时间: 0.0010008811950684
+
+[2017-08-21 7:19:19.870615] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299959.8186
+结束时间: 1503299959.8196
+总共执行的时间: 0.0010008811950684
+
+[2017-08-21 7:19:19.875617] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299959.8366
+结束时间: 1503299959.8676
+总共执行的时间: 0.031002044677734
+
+[2017-08-21 7:19:19.881617] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299959.8186
+结束时间: 1503299959.8196
+总共执行的时间: 0.0010008811950684
+
+[2017-08-21 7:19:19.914618] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299959.8366
+结束时间: 1503299959.8676
+总共执行的时间: 0.031002044677734
+
+[2017-08-21 7:19:19.920619] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` ORDER BY `user`.`id`
+开始时间: 1503299959.8776
+结束时间: 1503299959.8776
+总共执行的时间: 0
+
+[2017-08-21 7:19:23.131803] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299963.1178
+结束时间: 1503299963.1208
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:19:23.163805] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299963.1178
+结束时间: 1503299963.1208
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:19:23.167804] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299963.1338
+结束时间: 1503299963.1608
+总共执行的时间: 0.027002096176147
+
+[2017-08-21 7:19:23.173804] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299963.1178
+结束时间: 1503299963.1208
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:19:23.177805] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299963.1338
+结束时间: 1503299963.1608
+总共执行的时间: 0.027002096176147
+
+[2017-08-21 7:19:23.181806] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503299963.1698
+结束时间: 1503299963.1698
+总共执行的时间: 0
+
+[2017-08-21 7:19:48.685265] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299988.6703
+结束时间: 1503299988.6713
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:19:48.729266] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299988.6703
+结束时间: 1503299988.6713
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:19:48.735266] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299988.6883
+结束时间: 1503299988.7253
+总共执行的时间: 0.037001848220825
+
+[2017-08-21 7:19:48.741267] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503299988.6703
+结束时间: 1503299988.6713
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:19:48.745268] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503299988.6883
+结束时间: 1503299988.7253
+总共执行的时间: 0.037001848220825
+
+[2017-08-21 7:19:48.749268] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503299988.7373
+结束时间: 1503299988.7373
+总共执行的时间: 0
+
+[2017-08-21 7:20:26.378395] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300026.3604
+结束时间: 1503300026.3614
+总共执行的时间: 0.0010008811950684
+
+[2017-08-21 7:20:26.412395] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300026.3604
+结束时间: 1503300026.3614
+总共执行的时间: 0.0010008811950684
+
+[2017-08-21 7:20:26.417397] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300026.3814
+结束时间: 1503300026.4094
+总共执行的时间: 0.028000831604004
+
+[2017-08-21 7:20:26.422396] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300026.3604
+结束时间: 1503300026.3614
+总共执行的时间: 0.0010008811950684
+
+[2017-08-21 7:20:26.426397] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300026.3814
+结束时间: 1503300026.4094
+总共执行的时间: 0.028000831604004
+
+[2017-08-21 7:20:26.430397] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503300026.4194
+结束时间: 1503300026.4194
+总共执行的时间: 0
+
+[2017-08-21 7:20:49.882286] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300049.8673
+结束时间: 1503300049.8693
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:20:49.923288] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300049.8673
+结束时间: 1503300049.8693
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:20:49.928288] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300049.8853
+结束时间: 1503300049.9193
+总共执行的时间: 0.03400182723999
+
+[2017-08-21 7:20:49.934288] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300049.8673
+结束时间: 1503300049.8693
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:20:49.939289] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300049.8853
+结束时间: 1503300049.9193
+总共执行的时间: 0.03400182723999
+
+[2017-08-21 7:20:49.943289] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503300049.9303
+结束时间: 1503300049.9303
+总共执行的时间: 0
+
+[2017-08-21 7:20:59.025154] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300059.0092
+结束时间: 1503300059.0102
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:20:59.060156] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300059.0092
+结束时间: 1503300059.0102
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:20:59.064156] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300059.0282
+结束时间: 1503300059.0562
+总共执行的时间: 0.028001070022583
+
+[2017-08-21 7:20:59.070156] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300059.0092
+结束时间: 1503300059.0102
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:20:59.074156] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300059.0282
+结束时间: 1503300059.0562
+总共执行的时间: 0.028001070022583
+
+[2017-08-21 7:20:59.078156] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503300059.0662
+结束时间: 1503300059.0672
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:21:25.050836] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300085.0348
+结束时间: 1503300085.0388
+总共执行的时间: 0.0040009021759033
+
+[2017-08-21 7:21:25.085838] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300085.0348
+结束时间: 1503300085.0388
+总共执行的时间: 0.0040009021759033
+
+[2017-08-21 7:21:25.089838] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300085.0538
+结束时间: 1503300085.0828
+总共执行的时间: 0.029001951217651
+
+[2017-08-21 7:21:25.094839] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300085.0348
+结束时间: 1503300085.0388
+总共执行的时间: 0.0040009021759033
+
+[2017-08-21 7:21:25.098839] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300085.0538
+结束时间: 1503300085.0828
+总共执行的时间: 0.029001951217651
+
+[2017-08-21 7:21:25.102838] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503300085.0908
+结束时间: 1503300085.0918
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:21:48.482150] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300108.4701
+结束时间: 1503300108.4711
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:21:48.513151] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300108.4701
+结束时间: 1503300108.4711
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:21:48.517152] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300108.4842
+结束时间: 1503300108.5102
+总共执行的时间: 0.026001214981079
+
+[2017-08-21 7:21:48.526153] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300108.4701
+结束时间: 1503300108.4711
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:21:48.536154] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300108.4842
+结束时间: 1503300108.5102
+总共执行的时间: 0.026001214981079
+
+[2017-08-21 7:21:48.539154] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503300108.5192
+结束时间: 1503300108.5202
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:22:47.976151] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300167.9602
+结束时间: 1503300167.9612
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:22:48.010154] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300167.9602
+结束时间: 1503300167.9612
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:22:48.015155] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300167.9792
+结束时间: 1503300168.0072
+总共执行的时间: 0.028001070022583
+
+[2017-08-21 7:22:48.021155] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300167.9602
+结束时间: 1503300167.9612
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:22:48.024154] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300167.9792
+结束时间: 1503300168.0072
+总共执行的时间: 0.028001070022583
+
+[2017-08-21 7:22:48.028155] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503300168.0172
+结束时间: 1503300168.0172
+总共执行的时间: 0
+
+[2017-08-21 7:23:06.211194] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300186.1952
+结束时间: 1503300186.1972
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:23:06.252197] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300186.1952
+结束时间: 1503300186.1972
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:23:06.257198] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300186.2142
+结束时间: 1503300186.2482
+总共执行的时间: 0.034002065658569
+
+[2017-08-21 7:23:06.265198] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300186.1952
+结束时间: 1503300186.1972
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:23:06.269198] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300186.2142
+结束时间: 1503300186.2482
+总共执行的时间: 0.034002065658569
+
+[2017-08-21 7:23:06.273199] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503300186.2602
+结束时间: 1503300186.2612
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:25:04.654969] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300304.648
+结束时间: 1503300304.648
+总共执行的时间: 0
+
+[2017-08-21 7:25:04.681972] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300304.648
+结束时间: 1503300304.648
+总共执行的时间: 0
+
+[2017-08-21 7:25:04.685971] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300304.657
+结束时间: 1503300304.679
+总共执行的时间: 0.022001028060913
+
+[2017-08-21 7:25:04.690972] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300304.648
+结束时间: 1503300304.648
+总共执行的时间: 0
+
+[2017-08-21 7:25:04.694972] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300304.657
+结束时间: 1503300304.679
+总共执行的时间: 0.022001028060913
+
+[2017-08-21 7:25:04.698972] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503300304.687
+结束时间: 1503300304.688
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:25:30.810466] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300330.7955
+结束时间: 1503300330.7975
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:25:30.848468] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300330.7955
+结束时间: 1503300330.7975
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:25:30.852468] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300330.8125
+结束时间: 1503300330.8445
+总共执行的时间: 0.032002210617065
+
+[2017-08-21 7:25:30.859468] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300330.7955
+结束时间: 1503300330.7975
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:25:30.863468] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300330.8125
+结束时间: 1503300330.8445
+总共执行的时间: 0.032002210617065
+
+[2017-08-21 7:25:30.867469] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503300330.8555
+结束时间: 1503300330.8555
+总共执行的时间: 0
+
+[2017-08-21 7:27:01.315643] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300421.2976
+结束时间: 1503300421.3016
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 7:27:01.358644] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300421.2976
+结束时间: 1503300421.3016
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 7:27:01.366646] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300421.3186
+结束时间: 1503300421.3546
+总共执行的时间: 0.036001920700073
+
+[2017-08-21 7:27:01.374645] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300421.2976
+结束时间: 1503300421.3016
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 7:27:01.379646] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300421.3186
+结束时间: 1503300421.3546
+总共执行的时间: 0.036001920700073
+
+[2017-08-21 7:27:01.384646] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503300421.3686
+结束时间: 1503300421.3696
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:27:13.934364] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300433.9134
+结束时间: 1503300433.9174
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 7:27:13.967365] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300433.9134
+结束时间: 1503300433.9174
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 7:27:13.972367] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300433.9374
+结束时间: 1503300433.9644
+总共执行的时间: 0.027000904083252
+
+[2017-08-21 7:27:13.978367] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300433.9134
+结束时间: 1503300433.9174
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 7:27:13.982367] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300433.9374
+结束时间: 1503300433.9644
+总共执行的时间: 0.027000904083252
+
+[2017-08-21 7:27:13.986366] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503300433.9744
+结束时间: 1503300433.9754
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:27:43.741739] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300463.7267
+结束时间: 1503300463.7277
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:27:43.783741] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300463.7267
+结束时间: 1503300463.7277
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:27:43.789742] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300463.7447
+结束时间: 1503300463.7807
+总共执行的时间: 0.036001920700073
+
+[2017-08-21 7:27:43.795742] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300463.7267
+结束时间: 1503300463.7277
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:27:43.799742] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300463.7447
+结束时间: 1503300463.7807
+总共执行的时间: 0.036001920700073
+
+[2017-08-21 7:27:43.803744] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503300463.7917
+结束时间: 1503300463.7927
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:30:35.806974] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300635.789
+结束时间: 1503300635.79
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:30:35.833976] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300635.789
+结束时间: 1503300635.79
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:30:35.838977] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300635.81
+结束时间: 1503300635.831
+总共执行的时间: 0.021000862121582
+
+[2017-08-21 7:30:35.843977] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300635.789
+结束时间: 1503300635.79
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:30:35.847978] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300635.81
+结束时间: 1503300635.831
+总共执行的时间: 0.021000862121582
+
+[2017-08-21 7:30:35.851978] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503300635.841
+结束时间: 1503300635.841
+总共执行的时间: 0
+
+[2017-08-21 7:35:35.431207] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300935.4132
+结束时间: 1503300935.4152
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 7:35:35.468209] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300935.4132
+结束时间: 1503300935.4152
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 7:35:35.473211] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300935.4342
+结束时间: 1503300935.4642
+总共执行的时间: 0.030002117156982
+
+[2017-08-21 7:35:35.479211] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503300935.4132
+结束时间: 1503300935.4152
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 7:35:35.484210] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503300935.4342
+结束时间: 1503300935.4642
+总共执行的时间: 0.030002117156982
+
+[2017-08-21 7:35:35.488210] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503300935.4752
+结束时间: 1503300935.4762
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:38:28.896969] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301108.878
+结束时间: 1503301108.881
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:38:28.931971] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301108.878
+结束时间: 1503301108.881
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:38:28.935971] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301108.9
+结束时间: 1503301108.928
+总共执行的时间: 0.02800178527832
+
+[2017-08-21 7:38:28.941972] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301108.878
+结束时间: 1503301108.881
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:38:28.945971] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301108.9
+结束时间: 1503301108.928
+总共执行的时间: 0.02800178527832
+
+[2017-08-21 7:38:28.949971] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503301108.938
+结束时间: 1503301108.939
+总共执行的时间: 0.0010008811950684
+
+[2017-08-21 7:38:56.062397] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301136.0464
+结束时间: 1503301136.0474
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:38:56.101398] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301136.0464
+结束时间: 1503301136.0474
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:38:56.106399] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301136.0654
+结束时间: 1503301136.0984
+总共执行的时间: 0.033001899719238
+
+[2017-08-21 7:38:56.112400] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301136.0464
+结束时间: 1503301136.0474
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:38:56.116400] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301136.0654
+结束时间: 1503301136.0984
+总共执行的时间: 0.033001899719238
+
+[2017-08-21 7:38:56.121400] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503301136.1084
+结束时间: 1503301136.1084
+总共执行的时间: 0
+
+[2017-08-21 7:38:58.728549] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301138.7135
+结束时间: 1503301138.7155
+总共执行的时间: 0.0020010471343994
+
+[2017-08-21 7:38:58.769551] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301138.7135
+结束时间: 1503301138.7155
+总共执行的时间: 0.0020010471343994
+
+[2017-08-21 7:38:58.773551] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301138.7315
+结束时间: 1503301138.7656
+总共执行的时间: 0.034002065658569
+
+[2017-08-21 7:38:58.779551] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301138.7135
+结束时间: 1503301138.7155
+总共执行的时间: 0.0020010471343994
+
+[2017-08-21 7:38:58.783551] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301138.7315
+结束时间: 1503301138.7656
+总共执行的时间: 0.034002065658569
+
+[2017-08-21 7:38:58.788552] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503301138.7756
+结束时间: 1503301138.7756
+总共执行的时间: 0
+
+[2017-08-21 7:49:00.775475] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301740.7555
+结束时间: 1503301740.7585
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:49:00.806477] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301740.7555
+结束时间: 1503301740.7585
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:49:00.810477] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301740.7775
+结束时间: 1503301740.8035
+总共执行的时间: 0.0260009765625
+
+[2017-08-21 7:49:00.815478] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301740.7555
+结束时间: 1503301740.7585
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:49:00.819478] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301740.7775
+结束时间: 1503301740.8035
+总共执行的时间: 0.0260009765625
+
+[2017-08-21 7:49:00.824477] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503301740.8115
+结束时间: 1503301740.8125
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:49:39.576668] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301779.5597
+结束时间: 1503301779.5607
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:49:39.615670] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301779.5597
+结束时间: 1503301779.5607
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:49:39.620671] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301779.5797
+结束时间: 1503301779.6117
+总共执行的时间: 0.032001972198486
+
+[2017-08-21 7:49:39.625672] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301779.5597
+结束时间: 1503301779.5607
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:49:39.629672] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301779.5797
+结束时间: 1503301779.6117
+总共执行的时间: 0.032001972198486
+
+[2017-08-21 7:49:39.633671] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` ORDER BY `user`.`id`
+开始时间: 1503301779.6217
+结束时间: 1503301779.6227
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:49:57.210335] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301797.2033
+结束时间: 1503301797.2043
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:49:57.233336] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301797.2033
+结束时间: 1503301797.2043
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:49:57.237337] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301797.2113
+结束时间: 1503301797.2303
+总共执行的时间: 0.019001007080078
+
+[2017-08-21 7:49:57.242337] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301797.2033
+结束时间: 1503301797.2043
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:49:57.246337] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301797.2113
+结束时间: 1503301797.2303
+总共执行的时间: 0.019001007080078
+
+[2017-08-21 7:49:57.250338] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` ORDER BY `user`.`id`
+开始时间: 1503301797.2383
+结束时间: 1503301797.2393
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:49:59.402461] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301799.3845
+结束时间: 1503301799.3875
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:49:59.439462] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301799.3845
+结束时间: 1503301799.3875
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:49:59.443464] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301799.4045
+结束时间: 1503301799.4365
+总共执行的时间: 0.032002210617065
+
+[2017-08-21 7:49:59.449464] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301799.3845
+结束时间: 1503301799.3875
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:49:59.453464] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301799.4045
+结束时间: 1503301799.4365
+总共执行的时间: 0.032002210617065
+
+[2017-08-21 7:49:59.456464] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503301799.4455
+结束时间: 1503301799.4455
+总共执行的时间: 0
+
+[2017-08-21 7:50:01.731594] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301801.7156
+结束时间: 1503301801.7196
+总共执行的时间: 0.0040009021759033
+
+[2017-08-21 7:50:01.756596] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301801.7156
+结束时间: 1503301801.7196
+总共执行的时间: 0.0040009021759033
+
+[2017-08-21 7:50:01.760596] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301801.7326
+结束时间: 1503301801.7536
+总共执行的时间: 0.021002054214478
+
+[2017-08-21 7:50:01.766596] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301801.7156
+结束时间: 1503301801.7196
+总共执行的时间: 0.0040009021759033
+
+[2017-08-21 7:50:01.770596] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301801.7326
+结束时间: 1503301801.7536
+总共执行的时间: 0.021002054214478
+
+[2017-08-21 7:50:01.773597] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` ORDER BY `user`.`id`
+开始时间: 1503301801.7626
+结束时间: 1503301801.7636
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 7:50:54.471611] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301854.4566
+结束时间: 1503301854.4586
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:50:54.531614] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301854.4566
+结束时间: 1503301854.4586
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:50:54.535614] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301854.4846
+结束时间: 1503301854.5286
+总共执行的时间: 0.044002056121826
+
+[2017-08-21 7:50:54.541615] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301854.4566
+结束时间: 1503301854.4586
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:50:54.545614] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301854.4846
+结束时间: 1503301854.5286
+总共执行的时间: 0.044002056121826
+
+[2017-08-21 7:50:54.549614] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503301854.5376
+结束时间: 1503301854.5386
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:51:21.803174] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301881.7922
+结束时间: 1503301881.7932
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:51:21.835175] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301881.7922
+结束时间: 1503301881.7932
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:51:21.839175] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301881.8052
+结束时间: 1503301881.8322
+总共执行的时间: 0.027001857757568
+
+[2017-08-21 7:51:21.844177] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301881.7922
+结束时间: 1503301881.7932
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:51:21.848176] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301881.8052
+结束时间: 1503301881.8322
+总共执行的时间: 0.027001857757568
+
+[2017-08-21 7:51:21.852176] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503301881.8412
+结束时间: 1503301881.8422
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:51:46.096545] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301906.0765
+结束时间: 1503301906.0775
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:51:46.128547] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301906.0765
+结束时间: 1503301906.0775
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:51:46.133548] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301906.0995
+结束时间: 1503301906.1255
+总共执行的时间: 0.0260009765625
+
+[2017-08-21 7:51:46.140548] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301906.0765
+结束时间: 1503301906.0775
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:51:46.145549] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301906.0995
+结束时间: 1503301906.1255
+总共执行的时间: 0.0260009765625
+
+[2017-08-21 7:51:46.149549] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503301906.1355
+结束时间: 1503301906.1365
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:51:51.489168] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301911.4762
+结束时间: 1503301911.4772
+总共执行的时间: 0.0010011196136475
+
+[2017-08-21 7:51:51.536171] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301911.4762
+结束时间: 1503301911.4772
+总共执行的时间: 0.0010011196136475
+
+[2017-08-21 7:51:51.542171] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301911.4922
+结束时间: 1503301911.5302
+总共执行的时间: 0.038003206253052
+
+[2017-08-21 7:51:51.548172] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301911.4762
+结束时间: 1503301911.4772
+总共执行的时间: 0.0010011196136475
+
+[2017-08-21 7:51:51.554172] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301911.4922
+结束时间: 1503301911.5302
+总共执行的时间: 0.038003206253052
+
+[2017-08-21 7:51:51.561172] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503301911.5442
+结束时间: 1503301911.5452
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:53:12.664170] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301992.6482
+结束时间: 1503301992.6512
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:53:12.694171] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301992.6482
+结束时间: 1503301992.6512
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:53:12.698172] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301992.6662
+结束时间: 1503301992.6912
+总共执行的时间: 0.025001049041748
+
+[2017-08-21 7:53:12.703171] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503301992.6482
+结束时间: 1503301992.6512
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 7:53:12.707171] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503301992.6662
+结束时间: 1503301992.6912
+总共执行的时间: 0.025001049041748
+
+[2017-08-21 7:53:12.711172] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503301992.6992
+结束时间: 1503301992.7002
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:53:28.823093] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302008.8081
+结束时间: 1503302008.8091
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:53:28.864095] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302008.8081
+结束时间: 1503302008.8091
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:53:28.868097] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503302008.8261
+结束时间: 1503302008.8601
+总共执行的时间: 0.034002065658569
+
+[2017-08-21 7:53:28.873096] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302008.8081
+结束时间: 1503302008.8091
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:53:28.878097] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503302008.8261
+结束时间: 1503302008.8601
+总共执行的时间: 0.034002065658569
+
+[2017-08-21 7:53:28.882097] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503302008.8701
+结束时间: 1503302008.8701
+总共执行的时间: 0
+
+[2017-08-21 7:53:41.813837] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302021.7988
+结束时间: 1503302021.7998
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:53:41.854839] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302021.7988
+结束时间: 1503302021.7998
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:53:41.858839] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503302021.8168
+结束时间: 1503302021.8518
+总共执行的时间: 0.035001993179321
+
+[2017-08-21 7:53:41.863840] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302021.7988
+结束时间: 1503302021.7998
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:53:41.867840] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503302021.8168
+结束时间: 1503302021.8518
+总共执行的时间: 0.035001993179321
+
+[2017-08-21 7:53:41.871840] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503302021.8608
+结束时间: 1503302021.8608
+总共执行的时间: 0
+
+[2017-08-21 7:53:59.018821] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302039.0018
+结束时间: 1503302039.0038
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 7:53:59.055823] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302039.0018
+结束时间: 1503302039.0038
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 7:53:59.059823] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503302039.0218
+结束时间: 1503302039.0518
+总共执行的时间: 0.030001878738403
+
+[2017-08-21 7:53:59.065824] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302039.0018
+结束时间: 1503302039.0038
+总共执行的时间: 0.0019998550415039
+
+[2017-08-21 7:53:59.069823] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503302039.0218
+结束时间: 1503302039.0518
+总共执行的时间: 0.030001878738403
+
+[2017-08-21 7:53:59.072824] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503302039.0618
+结束时间: 1503302039.0628
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 7:59:57.955351] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302397.9383
+结束时间: 1503302397.9404
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:59:57.987353] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302397.9383
+结束时间: 1503302397.9404
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:59:57.991353] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503302397.9574
+结束时间: 1503302397.9844
+总共执行的时间: 0.027002096176147
+
+[2017-08-21 7:59:57.996352] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302397.9383
+结束时间: 1503302397.9404
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 7:59:58.000354] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503302397.9574
+结束时间: 1503302397.9844
+总共执行的时间: 0.027002096176147
+
+[2017-08-21 7:59:58.005353] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503302397.9924
+结束时间: 1503302397.9934
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:01:17.568000] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302477.552
+结束时间: 1503302477.553
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:01:17.598001] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302477.552
+结束时间: 1503302477.553
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:01:17.602001] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503302477.57
+结束时间: 1503302477.594
+总共执行的时间: 0.024002075195312
+
+[2017-08-21 8:01:17.608001] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302477.552
+结束时间: 1503302477.553
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:01:17.611002] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503302477.57
+结束时间: 1503302477.594
+总共执行的时间: 0.024002075195312
+
+[2017-08-21 8:01:17.615003] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503302477.604
+结束时间: 1503302477.604
+总共执行的时间: 0
+
+[2017-08-21 8:01:27.143296] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302487.1283
+结束时间: 1503302487.1323
+总共执行的时间: 0.004000186920166
+
+[2017-08-21 8:01:27.170298] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302487.1283
+结束时间: 1503302487.1323
+总共执行的时间: 0.004000186920166
+
+[2017-08-21 8:01:27.174299] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503302487.1443
+结束时间: 1503302487.1673
+总共执行的时间: 0.023001194000244
+
+[2017-08-21 8:01:27.179299] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302487.1283
+结束时间: 1503302487.1323
+总共执行的时间: 0.004000186920166
+
+[2017-08-21 8:01:27.183299] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503302487.1443
+结束时间: 1503302487.1673
+总共执行的时间: 0.023001194000244
+
+[2017-08-21 8:01:27.186299] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503302487.1753
+结束时间: 1503302487.1763
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:01:48.309464] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302508.2935
+结束时间: 1503302508.2945
+总共执行的时间: 0.0010011196136475
+
+[2017-08-21 8:01:48.341466] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302508.2935
+结束时间: 1503302508.2945
+总共执行的时间: 0.0010011196136475
+
+[2017-08-21 8:01:48.345467] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503302508.3125
+结束时间: 1503302508.3375
+总共执行的时间: 0.025001049041748
+
+[2017-08-21 8:01:48.351468] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302508.2935
+结束时间: 1503302508.2945
+总共执行的时间: 0.0010011196136475
+
+[2017-08-21 8:01:48.355468] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503302508.3125
+结束时间: 1503302508.3375
+总共执行的时间: 0.025001049041748
+
+[2017-08-21 8:01:48.359467] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503302508.3475
+结束时间: 1503302508.3485
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:04:56.732841] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302696.7148
+结束时间: 1503302696.7158
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:04:56.769843] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302696.7148
+结束时间: 1503302696.7158
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:04:56.774842] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503302696.7358
+结束时间: 1503302696.7668
+总共执行的时间: 0.031002044677734
+
+[2017-08-21 8:04:56.780843] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302696.7148
+结束时间: 1503302696.7158
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:04:56.783843] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503302696.7358
+结束时间: 1503302696.7668
+总共执行的时间: 0.031002044677734
+
+[2017-08-21 8:04:56.787843] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503302696.7758
+结束时间: 1503302696.7768
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:06:30.185774] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302790.1688
+结束时间: 1503302790.1708
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 8:06:30.218775] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302790.1688
+结束时间: 1503302790.1708
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 8:06:30.222775] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503302790.1888
+结束时间: 1503302790.2168
+总共执行的时间: 0.02800178527832
+
+[2017-08-21 8:06:30.228775] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302790.1688
+结束时间: 1503302790.1708
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 8:06:30.232777] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503302790.1888
+结束时间: 1503302790.2168
+总共执行的时间: 0.02800178527832
+
+[2017-08-21 8:06:30.236777] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503302790.2248
+结束时间: 1503302790.2258
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:09:53.333101] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302993.3141
+结束时间: 1503302993.3161
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 8:09:53.380105] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302993.3141
+结束时间: 1503302993.3161
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 8:09:53.389105] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503302993.3351
+结束时间: 1503302993.3751
+总共执行的时间: 0.040002822875977
+
+[2017-08-21 8:09:53.396106] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503302993.3141
+结束时间: 1503302993.3161
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 8:09:53.400105] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503302993.3351
+结束时间: 1503302993.3751
+总共执行的时间: 0.040002822875977
+
+[2017-08-21 8:09:53.405106] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503302993.3921
+结束时间: 1503302993.3921
+总共执行的时间: 0
+
+[2017-08-21 8:11:39.815675] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303099.8007
+结束时间: 1503303099.8037
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 8:11:39.847676] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303099.8007
+结束时间: 1503303099.8037
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 8:11:39.851676] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503303099.8187
+结束时间: 1503303099.8447
+总共执行的时间: 0.026001930236816
+
+[2017-08-21 8:11:39.857676] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303099.8007
+结束时间: 1503303099.8037
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 8:11:39.861677] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503303099.8187
+结束时间: 1503303099.8447
+总共执行的时间: 0.026001930236816
+
+[2017-08-21 8:11:39.865678] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503303099.8537
+结束时间: 1503303099.8547
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:11:57.251518] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303117.2345
+结束时间: 1503303117.2355
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:11:57.288521] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303117.2345
+结束时间: 1503303117.2355
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:11:57.292520] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503303117.2545
+结束时间: 1503303117.2845
+总共执行的时间: 0.030002117156982
+
+[2017-08-21 8:11:57.298521] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303117.2345
+结束时间: 1503303117.2355
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:11:57.302521] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503303117.2545
+结束时间: 1503303117.2845
+总共执行的时间: 0.030002117156982
+
+[2017-08-21 8:11:57.306521] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE (`user`.`email` = :username OR `user`.`username` = :username) AND `user`.`password` = :password AND `user`.`active` = '1' LIMIT :APL0
+开始时间: 1503303117.2945
+结束时间: 1503303117.2945
+总共执行的时间: 0
+
+[2017-08-21 8:12:00.060395] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303120.0424
+结束时间: 1503303120.0454
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 8:12:00.101397] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303120.0424
+结束时间: 1503303120.0454
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 8:12:00.106396] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503303120.0634
+结束时间: 1503303120.0974
+总共执行的时间: 0.034002065658569
+
+[2017-08-21 8:12:00.113398] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303120.0424
+结束时间: 1503303120.0454
+总共执行的时间: 0.003000020980835
+
+[2017-08-21 8:12:00.117398] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503303120.0634
+结束时间: 1503303120.0974
+总共执行的时间: 0.034002065658569
+
+[2017-08-21 8:12:00.121397] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`username` LIKE :username AND `user`.`password` LIKE :password ORDER BY `user`.`id`
+开始时间: 1503303120.1094
+结束时间: 1503303120.1104
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:12:44.670293] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303164.6563
+结束时间: 1503303164.6573
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:12:44.708296] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303164.6563
+结束时间: 1503303164.6573
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:12:44.713295] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503303164.6723
+结束时间: 1503303164.7043
+总共执行的时间: 0.03200101852417
+
+[2017-08-21 8:12:44.718296] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303164.6563
+结束时间: 1503303164.6573
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:12:44.724297] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503303164.6723
+结束时间: 1503303164.7043
+总共执行的时间: 0.03200101852417
+
+[2017-08-21 8:12:44.729296] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` ORDER BY `user`.`id`
+开始时间: 1503303164.7153
+结束时间: 1503303164.7153
+总共执行的时间: 0
+
+[2017-08-21 8:12:47.574460] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303167.5595
+结束时间: 1503303167.5655
+总共执行的时间: 0.0060000419616699
+
+[2017-08-21 8:12:47.603461] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303167.5595
+结束时间: 1503303167.5655
+总共执行的时间: 0.0060000419616699
+
+[2017-08-21 8:12:47.607460] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503303167.5755
+结束时间: 1503303167.6015
+总共执行的时间: 0.0260009765625
+
+[2017-08-21 8:12:47.613461] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303167.5595
+结束时间: 1503303167.5655
+总共执行的时间: 0.0060000419616699
+
+[2017-08-21 8:12:47.617461] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503303167.5755
+结束时间: 1503303167.6015
+总共执行的时间: 0.0260009765625
+
+[2017-08-21 8:12:47.620461] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503303167.6095
+结束时间: 1503303167.6095
+总共执行的时间: 0
+
+[2017-08-21 8:12:54.450853] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303174.4369
+结束时间: 1503303174.4379
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:12:54.490854] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303174.4369
+结束时间: 1503303174.4379
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:12:54.495855] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503303174.4539
+结束时间: 1503303174.4849
+总共执行的时间: 0.031002044677734
+
+[2017-08-21 8:12:54.501856] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303174.4369
+结束时间: 1503303174.4379
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:12:54.505856] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503303174.4539
+结束时间: 1503303174.4849
+总共执行的时间: 0.031002044677734
+
+[2017-08-21 8:12:54.508856] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503303174.4979
+结束时间: 1503303174.4989
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:23:18.653753] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303798.6388
+结束时间: 1503303798.6398
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:23:18.681755] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303798.6388
+结束时间: 1503303798.6398
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:23:18.685755] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503303798.6558
+结束时间: 1503303798.6778
+总共执行的时间: 0.022001028060913
+
+[2017-08-21 8:23:18.690756] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303798.6388
+结束时间: 1503303798.6398
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:23:18.694756] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503303798.6558
+结束时间: 1503303798.6778
+总共执行的时间: 0.022001028060913
+
+[2017-08-21 8:23:18.698755] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503303798.6868
+结束时间: 1503303798.6878
+总共执行的时间: 0.0010001659393311
+
+[2017-08-21 8:25:24.689161] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303924.6742
+结束时间: 1503303924.6752
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:25:24.726162] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303924.6742
+结束时间: 1503303924.6752
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:25:24.731163] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503303924.6922
+结束时间: 1503303924.7232
+总共执行的时间: 0.031000852584839
+
+[2017-08-21 8:25:24.737163] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503303924.6742
+结束时间: 1503303924.6752
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:25:24.741163] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503303924.6922
+结束时间: 1503303924.7232
+总共执行的时间: 0.031000852584839
+
+[2017-08-21 8:25:24.745163] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` ORDER BY `user`.`id`
+开始时间: 1503303924.7332
+结束时间: 1503303924.7332
+总共执行的时间: 0
+
+[2017-08-21 8:27:33.860840] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304053.8518
+结束时间: 1503304053.8528
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:27:33.890841] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304053.8518
+结束时间: 1503304053.8528
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:27:33.894840] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503304053.8628
+结束时间: 1503304053.8878
+总共执行的时间: 0.025001049041748
+
+[2017-08-21 8:27:33.900841] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'user' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304053.8518
+结束时间: 1503304053.8528
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:27:33.904841] [notice] SQL语句: DESCRIBE `test`.`user`
+开始时间: 1503304053.8628
+结束时间: 1503304053.8878
+总共执行的时间: 0.025001049041748
+
+[2017-08-21 8:27:33.907841] [notice] SQL语句: SELECT `user`.`id`, `user`.`sex`, `user`.`name`, `user`.`username`, `user`.`password`, `user`.`email`, `user`.`active`, `user`.`Jurisdiction`, `user`.`addtime` FROM `test`.`user` WHERE `user`.`id` = :0 LIMIT :APL0
+开始时间: 1503304053.8968
+结束时间: 1503304053.8978
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:27:39.711174] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304059.6962
+结束时间: 1503304059.6982
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 8:27:39.742176] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304059.6962
+结束时间: 1503304059.6982
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 8:27:39.747175] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503304059.7122
+结束时间: 1503304059.7402
+总共执行的时间: 0.028002023696899
+
+[2017-08-21 8:27:39.752177] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304059.6962
+结束时间: 1503304059.6982
+总共执行的时间: 0.002000093460083
+
+[2017-08-21 8:27:39.756176] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503304059.7122
+结束时间: 1503304059.7402
+总共执行的时间: 0.028002023696899
+
+[2017-08-21 8:27:39.760176] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503304059.7482
+结束时间: 1503304059.7492
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:34:39.114588] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304479.0956
+结束时间: 1503304479.1016
+总共执行的时间: 0.0060000419616699
+
+[2017-08-21 8:34:39.146590] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304479.0956
+结束时间: 1503304479.1016
+总共执行的时间: 0.0060000419616699
+
+[2017-08-21 8:34:39.150590] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503304479.1166
+结束时间: 1503304479.1436
+总共执行的时间: 0.027000904083252
+
+[2017-08-21 8:34:39.156590] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304479.0956
+结束时间: 1503304479.1016
+总共执行的时间: 0.0060000419616699
+
+[2017-08-21 8:34:39.160590] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503304479.1166
+结束时间: 1503304479.1436
+总共执行的时间: 0.027000904083252
+
+[2017-08-21 8:34:39.164592] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503304479.1526
+结束时间: 1503304479.1536
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:34:42.921586] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304482.9026
+结束时间: 1503304482.9066
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 8:34:42.958589] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304482.9026
+结束时间: 1503304482.9066
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 8:34:42.962589] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503304482.9236
+结束时间: 1503304482.9556
+总共执行的时间: 0.032001972198486
+
+[2017-08-21 8:34:42.968589] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304482.9026
+结束时间: 1503304482.9066
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 8:34:42.972589] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503304482.9236
+结束时间: 1503304482.9556
+总共执行的时间: 0.032001972198486
+
+[2017-08-21 8:34:42.976589] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503304482.9646
+结束时间: 1503304482.9646
+总共执行的时间: 0
+
+[2017-08-21 8:34:49.172878] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304489.1569
+结束时间: 1503304489.1589
+总共执行的时间: 0.0020010471343994
+
+[2017-08-21 8:34:49.209881] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304489.1569
+结束时间: 1503304489.1589
+总共执行的时间: 0.0020010471343994
+
+[2017-08-21 8:34:49.214881] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503304489.1759
+结束时间: 1503304489.2059
+总共执行的时间: 0.030001163482666
+
+[2017-08-21 8:34:49.220881] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304489.1569
+结束时间: 1503304489.1589
+总共执行的时间: 0.0020010471343994
+
+[2017-08-21 8:34:49.224881] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503304489.1759
+结束时间: 1503304489.2059
+总共执行的时间: 0.030001163482666
+
+[2017-08-21 8:34:49.228883] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503304489.2169
+结束时间: 1503304489.2169
+总共执行的时间: 0
+
+[2017-08-21 8:34:52.239054] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304492.2221
+结束时间: 1503304492.2261
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 8:34:52.273056] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304492.2221
+结束时间: 1503304492.2261
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 8:34:52.278057] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503304492.2421
+结束时间: 1503304492.2701
+总共执行的时间: 0.028002023696899
+
+[2017-08-21 8:34:52.283056] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304492.2221
+结束时间: 1503304492.2261
+总共执行的时间: 0.0039999485015869
+
+[2017-08-21 8:34:52.287056] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503304492.2421
+结束时间: 1503304492.2701
+总共执行的时间: 0.028002023696899
+
+[2017-08-21 8:34:52.291058] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503304492.2801
+结束时间: 1503304492.2811
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:36:13.195684] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304573.1817
+结束时间: 1503304573.1827
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:36:13.243688] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304573.1817
+结束时间: 1503304573.1827
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:36:13.250688] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503304573.1987
+结束时间: 1503304573.2377
+总共执行的时间: 0.039003133773804
+
+[2017-08-21 8:36:13.255688] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304573.1817
+结束时间: 1503304573.1827
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:36:13.259689] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503304573.1987
+结束时间: 1503304573.2377
+总共执行的时间: 0.039003133773804
+
+[2017-08-21 8:36:13.263689] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503304573.2517
+结束时间: 1503304573.2527
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:36:53.882011] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304613.874
+结束时间: 1503304613.875
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:36:53.906013] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304613.874
+结束时间: 1503304613.875
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:36:53.910013] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503304613.884
+结束时间: 1503304613.903
+总共执行的时间: 0.019001960754395
+
+[2017-08-21 8:36:53.915014] [notice] SQL语句: SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME`= 'userFile' AND `TABLE_SCHEMA` = 'test'
+开始时间: 1503304613.874
+结束时间: 1503304613.875
+总共执行的时间: 0.00099992752075195
+
+[2017-08-21 8:36:53.919013] [notice] SQL语句: DESCRIBE `test`.`userFile`
+开始时间: 1503304613.884
+结束时间: 1503304613.903
+总共执行的时间: 0.019001960754395
+
+[2017-08-21 8:36:53.923015] [notice] SQL语句: INSERT INTO `test`.`userFile` (`user_id`, `fileName`, `fileDir`, `addTime`) VALUES (?, ?, ?, DEFAULT)
+开始时间: 1503304613.912
+结束时间: 1503304613.912
+总共执行的时间: 0
+

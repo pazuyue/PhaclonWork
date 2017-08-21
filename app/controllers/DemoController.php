@@ -24,4 +24,11 @@ class DemoController
         Log::getInstance()->debug($users);
     }
 
+    //Cookies保存和获取
+    public function getCookiesAction(){
+        $this->cookies->set('name', 'yueguang', time() + 7 * 86400);
+        $name=trim($this->cookies->get('name')->getValue());
+        return $name;
+    }
+
 }
