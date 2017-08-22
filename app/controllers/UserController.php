@@ -118,7 +118,6 @@ class UserController extends ControllerBase
         $user->email = $this->request->getPost("email","email");
 
 
-
         if (!$user->save()) {
             foreach ($user->getMessages() as $message) {
                 $this->flash->error($message);

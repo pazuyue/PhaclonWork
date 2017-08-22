@@ -14,6 +14,7 @@ $loader->registerDirs(
         $config->application->globalsDir,
         $config->application->globalsCommonDir,
         $config->application->pluginsListenerDir,
-
+        $config->application->controllersValidationDir,
+        $config->application->globalsServerDir,
     ]
 )->register();

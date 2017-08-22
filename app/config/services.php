@@ -101,9 +101,7 @@ $di->setShared('modelsMetadata', function () {
     return new MetaDataAdapter();
 });
 
-/**
- * Register the session flash service with the Twitter Bootstrap classes
- */
+// 利用自定义的CSS类来注册flash服务
 $di->set('flash', function () {
     return new Flash([
         'error'   => 'alert alert-danger',

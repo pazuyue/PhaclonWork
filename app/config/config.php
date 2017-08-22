@@ -28,10 +28,16 @@ return new \Phalcon\Config([
         'cacheDir'       => BASE_PATH . '/cache/',
         'globalsDir'       => APP_PATH . '/globals/',
         'globalsCommonDir'       => APP_PATH . '/globals/common/',
+        'controllersValidationDir'=> APP_PATH . '/controllers/validation/',
+        'globalsServerDir'       => APP_PATH . '/globals/server/',
+
 
         // This allows the baseUri to be understand project paths that are not in the root directory
         // of the webpspace.  This will break if the public/index.php entry point is moved or
         // possibly if the web server rewrite rules are changed. This can also be set to a static path.
         'baseUri'        => preg_replace('/public([\/\\\\])index.php$/', '', $_SERVER["PHP_SELF"]),
+    ],
+    'file'=>[
+        'cacheDir'=> BASE_PATH . '/cache/output/',
     ]
 ]);
