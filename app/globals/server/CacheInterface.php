@@ -8,14 +8,16 @@
  */
 interface CacheInterface
 {
-    public function getKey($key);
+    public function getKey($cacheKey);
 
-    public function get($key,$lifetime);
+    public function get($cacheKey,$lifetime);
 
-    public function save($key,$content);
+    public function save($cacheKey,$content);
 
-    public function delete($key);
+    public function delete($cacheKey);
 
     public function start($cacheKey);
+
+    public function queryKeys();
 
 }

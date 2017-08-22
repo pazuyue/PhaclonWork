@@ -6,7 +6,16 @@ class IndexController extends ControllerBase
 
     public function indexAction()
     {
-
+        $ruslt= $this->session->get('auth');
+        if(!empty($ruslt))
+        {
+            return $this->dispatcher->forward(
+                array(
+                    'controller' => 'user',
+                    'action'     => 'index'
+                )
+            );
+        }
     }
 
     private function _registerSession($user)

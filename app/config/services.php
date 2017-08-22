@@ -10,6 +10,7 @@ use Phalcon\Session\Adapter\Files as SessionAdapter;
 use Phalcon\Flash\Direct as Flash;
 use Phalcon\Crypt;
 use Phalcon\Http\Response\Cookies;
+use Phalcon\Security;
 
 use Phalcon\Mvc\Dispatcher;
 use Phalcon\Events\Manager as EventsManager;
@@ -155,3 +156,11 @@ $di->setShared('dispatcher', function () {
 
     return $dispatcher;
 });
+
+$di->set('security', function () {
+
+    $security = new Security();
+    // Set the password hashing factor to 12 rounds
+    $security->setWorkFactor(12);
+    return $security;
+}, true);

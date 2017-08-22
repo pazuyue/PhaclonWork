@@ -13,6 +13,8 @@ use Phalcon\Forms\Element\Select;
 use Phalcon\Validation\Validator\PresenceOf;
 use Phalcon\Validation\Validator\StringLength;
 use Phalcon\Tag;
+use Phalcon\Crypt;
+use Phalcon\Annotations\Adapter\Memory as MemoryAdapter;
 
 class DemoController extends ControllerBase
 {
@@ -86,6 +88,7 @@ class DemoController extends ControllerBase
         }
     }
 
+    //文件后端存储器例子
     public function testCacheByFileAction(){
         $this->cookies->set('name', 'yueguang', time() + 7 * 86400);
         $CacheOutServer = new CacheOutServer();
@@ -99,6 +102,33 @@ class DemoController extends ControllerBase
         }else{
             return $name;
         }
-
     }
+
+    //加密解密
+    public function cryptAction(){
+        // 创建实例
+        $crypt = new Crypt();
+        $texts = [
+            "my-key"    => "This is a secret text",
+            "other-key" => "This is a very secret",
+        ];
+
+        foreach ($texts as $key => $text) {
+            // 加密
+            $encrypted = $crypt->encryptBase64($text, $key);
+            // 解密
+            echo $crypt->decryptBase64($encrypted, $key);
+        }
+    }
+
+    public function sqltestAction(){
+        $sql = "SELECT * FROM `user` ORDER BY id ";
+        // 发送SQL语句到数据库
+        $result = $this->db->query($sql);
+        // 打印每个robot名称
+        while ($robot = $result->fetch()) {
+            echo $robot["name"];
+        }
+    }
+
 }

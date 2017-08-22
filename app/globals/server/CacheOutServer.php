@@ -59,4 +59,8 @@ class CacheOutServer implements CacheInterface
     public function start($cacheKey){
         return $this->cache->start($cacheKey);
     }
+
+    public function queryKeys(){
+        return $this->cache->queryKeys();
+    }
 }
