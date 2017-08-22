@@ -18,19 +18,20 @@ return new \Phalcon\Config([
     ],
     'application' => [
         'appDir'         => APP_PATH . '/',
-        'controllersDir' => APP_PATH . '/controllers/',
-        'modelsDir'      => APP_PATH . '/models/',
+        'controllersDir' => APP_PATH . '/modules/controllers/',
+        'controllersValidationDir'=> APP_PATH . '/modules/controllers/validation/',
+        'modelsDir'      => APP_PATH . '/modules/models/',
         'migrationsDir'  => APP_PATH . '/migrations/',
         'viewsDir'       => APP_PATH . '/views/',
         'pluginsDir'     => APP_PATH . '/plugins/',
         'pluginsListenerDir'     => APP_PATH . '/plugins/Listener/',
         'libraryDir'     => APP_PATH . '/library/',
-        'cacheDir'       => BASE_PATH . '/cache/',
         'globalsDir'       => APP_PATH . '/globals/',
         'globalsCommonDir'       => APP_PATH . '/globals/common/',
-        'controllersValidationDir'=> APP_PATH . '/controllers/validation/',
         'globalsServerDir'       => APP_PATH . '/globals/server/',
-        'LogicDir'       => APP_PATH . '/Logic/',
+        'LogicDir'       => APP_PATH . '/modules/Logic/',
+
+        'cacheDir'       => BASE_PATH . '/cache/',
         'TestDir'       => BASE_PATH . '/public/tests',
 
 

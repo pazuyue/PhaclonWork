@@ -17,6 +17,7 @@ class Log
 
     }
 
+
     public static function getInstance()
     {
         if(!static::$_instance instanceof static){

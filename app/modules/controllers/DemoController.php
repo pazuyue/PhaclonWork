@@ -136,4 +136,10 @@ class DemoController extends ControllerBase
         echo "ok";
     }
 
+    public function notFoundAction()
+    {
+        // 发送一个HTTP 404 响应的header
+        $this->response->setStatusCode(404, "Not Found");
+    }
+
 }
