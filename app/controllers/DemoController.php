@@ -131,4 +131,9 @@ class DemoController extends ControllerBase
         }
     }
 
+    public function indexAction()
+    {
+        // ...
+    }
+
 }

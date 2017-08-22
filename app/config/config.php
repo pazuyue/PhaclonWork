@@ -30,6 +30,8 @@ return new \Phalcon\Config([
         'globalsCommonDir'       => APP_PATH . '/globals/common/',
         'controllersValidationDir'=> APP_PATH . '/controllers/validation/',
         'globalsServerDir'       => APP_PATH . '/globals/server/',
+        'LogicDir'       => APP_PATH . '/Logic/',
+        'TestDir'       => BASE_PATH . '/public/tests',
 
 
         // This allows the baseUri to be understand project paths that are not in the root directory

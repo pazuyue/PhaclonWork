@@ -1,5 +1,7 @@
 {
     "require": {
-        "katzgrau/klogger": "dev-master"
+        "katzgrau/klogger": "dev-master",
+        "phpunit/phpunit": "^6.3",
+        "phalcon/incubator": "^3.1"
     }
 }
