@@ -63,8 +63,15 @@ class User extends \Phalcon\Mvc\Model
     {
         $this->setSchema("test");
 
-        $eventsManager = new EventsManager();
+        $this->hasMany(
+            "id",
+            "UserFile",
+            "user_id"
+        );
 
+        $this->keepSnapshots(true);
+
+        $eventsManager = new EventsManager();
         // Attach an anonymous function as a listener for "model" events
         $eventsManager->attach(
             "model:beforeSave",

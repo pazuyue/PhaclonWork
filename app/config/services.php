@@ -14,6 +14,9 @@ use Phalcon\Security;
 
 use Phalcon\Mvc\Dispatcher;
 use Phalcon\Events\Manager as EventsManager;
+use Phalcon\Mvc\Model\Manager as ModelsManager;
+use Phalcon\Cache\Backend\File as BackFile;
+use Phalcon\Cache\Frontend\Data as FrontData;
 
 /**
  * Shared configuration service
@@ -165,4 +168,31 @@ $di->set('security', function () {
     return $security;
 }, true);
 
+$di->set(
+    "modelsManager",
+    function() {
+        return new ModelsManager();
+    }
+);
 
+$di->set(
+    "modelsCache",
+    function () {
+        // 默认缓存时间为一天
+        $frontCache = new FrontData(
+            [
+                "lifetime" => 86400,
+            ]
+        );
+        $config = $this->getConfig();
+        // Memcached连接配置 这里使用的是Memcache适配器
+        checkDir($config['file']->cacheDir);
+        $cache = new BackFile(
+            $frontCache,
+            array(
+                "cacheDir" => $config['file']->cacheDir
+            )
+        );
+        return $cache;
+    }
+);

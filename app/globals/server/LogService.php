@@ -3,10 +3,10 @@
 /**
  * Created by PhpStorm.
  * User: Administrator
- * Date: 2017/8/18
- * Time: 17:04
+ * Date: 2017/9/11
+ * Time: 16:13
  */
-class Log2
+class LogService
 {
     protected  static $_instance;
     protected  $log_dir ;
@@ -17,6 +17,14 @@ class Log2
     }
 
 
+    public static function getInstance()
+    {
+        if(!static::$_instance instanceof static){
+            static::$_instance = new static();
+        }
+        $me = static::$_instance;
+        return  $me;
+    }
 
     public function error($message){
         $log_dir =$this->log_dir."/error";

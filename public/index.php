@@ -27,6 +27,8 @@ try {
     require BASE_PATH.'/vendor/autoload.php';
     include APP_PATH . '/globals/common/CommonFun.php';
 
+
+
     /**
      * Get config service for use in inline setup below
      */
@@ -44,9 +46,11 @@ try {
      */
     $application = new \Phalcon\Mvc\Application($di);
 
+    spl_autoload_register("Facades::register");
+
+   echo str_replace(["\n","\r","\t"], '', $application->handle()->getContent());
 
 
-    echo str_replace(["\n","\r","\t"], '', $application->handle()->getContent());
 
 } catch (\Exception $e) {
     echo $e->getMessage() . '<br>';

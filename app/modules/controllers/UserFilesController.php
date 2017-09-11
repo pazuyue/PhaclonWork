@@ -93,5 +93,22 @@ class UserFilesController extends ControllerBase
         }
     }
 
+    public function searchAction($id=null){
+        if(empty($id))
+        {
+            $this->flash->notice("无效用户");
+
+            $this->dispatcher->forward([
+                "controller" => "user",
+                "action" => "search"
+            ]);
+            return;
+        }
+        $user = User::findFirstByid($id);
+        foreach ($user->UserFile as $robotPart) {
+            echo "文件路径：".$robotPart->fileDir."<br>";
+        }
+    }
+
 
 }

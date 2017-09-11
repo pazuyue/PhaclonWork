@@ -30,9 +30,8 @@
             <th>Name</th>
             <th>Username</th>
             <th>Email</th>
-
-                <th></th>
-                <th></th>
+                <th>用户权限</th>
+                <th>删除操作</th>
             </tr>
         </thead>
         <tbody>
@@ -47,6 +46,7 @@
                 <td>
                     <?php echo $this->tag->linkTo(["user/edit/" . $user->id, "修改"]); ?>
                     <?php echo $this->tag->linkTo(["UserFiles/index/" . $user->id, "添加文档"]); ?>
+                    <?php echo $this->tag->linkTo(["UserFiles/search/" . $user->id, "查看文档"]); ?>
                 </td>
                 <td><?php echo $this->tag->linkTo(["user/delete/" . $user->id, "删除"]); ?></td>
             </tr>

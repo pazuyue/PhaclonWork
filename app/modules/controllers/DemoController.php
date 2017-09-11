@@ -34,6 +34,10 @@ class DemoController extends ControllerBase
         Log::getInstance()->debug($users);
     }
 
+    public function facadesAction(){
+        \Log::debug(321);
+    }
+
     //Cookies保存和获取
     public function getCookiesAction(){
         $this->cookies->set('name', 'yueguang', time() + 7 * 86400);
@@ -122,18 +126,67 @@ class DemoController extends ControllerBase
     }
 
     public function sqltestAction(){
-        $sql = "SELECT * FROM `user` ORDER BY id ";
+        /*$sql = "SELECT * FROM `user` ORDER BY id ";
         // 发送SQL语句到数据库
         $result = $this->db->query($sql);
         // 打印每个robot名称
         while ($robot = $result->fetch()) {
             echo $robot["name"];
+        }*/
+
+        $rows = User::find(
+            [
+                "conditions" => "Jurisdiction = :Jurisdiction:",
+                "bind"       => [
+                    "Jurisdiction"=> "2",
+                ],
+                "cache" => [
+                    "key" => "my-cache",
+                ],
+            ]
+        );
+        foreach ($rows as $row) {
+            echo $row->name, "<br>";
+            foreach ($row->UserFile as $userFile)
+            {
+                echo "---->".$userFile->fileDir, "<br>";
+            }
         }
+
+        /*
+        //记录快照，判断修改字段和修改状态
+        $user = User::findFirst();
+        $user->name="月神";
+        var_dump($user->getChangedFields()); // ["name"]
+        var_dump($user->hasChanged("name")); // true
+        $user->name="Tom";
+        var_dump($user->hasChanged("name")); // true*/
+
+        //$manager=$this->modelsManager;
+        //$phql ="SELECT * FROM `user` AS u LEFT JOIN  userfile AS uf ON u.id=uf.user_id";
+       /* $query = $this->modelsManager->createQuery("SELECT User.name,UserFile.fileName FROM User  LEFT  JOIN UserFile ON User.id = UserFile.user_id");
+        $user  = $query->execute();
+        foreach ($user as $car) {
+            echo "Name: ", $car->name, "<br>";
+            echo "FileName: ", $car->fileName, "<br>";
+        }*/
+
     }
 
     public function indexAction()
     {
-        echo "ok";
+        $user = new User();
+
+        // Get Phalcon\Mvc\Model\Metadata instance
+        $metadata = $user->getModelsMetaData();
+
+        //获取模型元数据
+        $attributes = $metadata->getAttributes($user);
+        print_r($attributes);
+        echo "<br>";
+        // Get robots fields data types
+        $dataTypes = $metadata->getDataTypes($user);
+        print_r($dataTypes);
     }
 
     public function notFoundAction()

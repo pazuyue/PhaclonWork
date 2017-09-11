@@ -29,11 +29,12 @@ return new \Phalcon\Config([
         'globalsDir'       => APP_PATH . '/globals/',
         'globalsCommonDir'       => APP_PATH . '/globals/common/',
         'globalsServerDir'       => APP_PATH . '/globals/server/',
+        'globalsFacadesDir'       => APP_PATH . '/globals/facades/',
         'LogicDir'       => APP_PATH . '/modules/Logic/',
 
         'cacheDir'       => BASE_PATH . '/cache/',
         'TestDir'       => BASE_PATH . '/public/tests',
-
+        'StorageDir'       => BASE_PATH . '/storage',
 
         // This allows the baseUri to be understand project paths that are not in the root directory
         // of the webpspace.  This will break if the public/index.php entry point is moved or
@@ -42,5 +43,7 @@ return new \Phalcon\Config([
     ],
     'file'=>[
         'cacheDir'=> BASE_PATH . '/cache/output/',
-    ]
+    ],
+
+    'facades'=>include_once APP_PATH.'/globals/facades/facades.cfg.php',
 ]);
