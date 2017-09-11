@@ -31,11 +31,7 @@ class DemoController extends ControllerBase
                 'username' => 'dhrrgn',
             ],
         ];
-        Log::getInstance()->debug($users);
-    }
-
-    public function facadesAction(){
-        \Log::debug(321);
+        Log::debug($users);
     }
 
     //Cookies保存和获取
