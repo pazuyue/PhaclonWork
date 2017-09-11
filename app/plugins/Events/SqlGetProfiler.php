@@ -30,8 +30,6 @@ class SqlGetProfiler
 
     public function getSqlProfiler()
     {
-        $this->loger= Log::getInstance();
-
         //SQL解析
         $eventsManager = new EventsManager();
         // Get a shared instance of the DbProfiler
@@ -49,7 +47,7 @@ class SqlGetProfiler
                     foreach ($profiles as $profile) {
                         $log =$ipAddress."用户在注入！！"."\n";
                         $log .="SQL语句: " . $profile->getSQLStatement() . "\n";
-                        $this->loger->error($log);
+                        Log::error($log);
                     }
                     return false;
                 }
@@ -66,7 +64,7 @@ class SqlGetProfiler
                     $log .= "开始时间: " . $profile->getInitialTime() . "\n";
                     $log .= "结束时间: " . $profile->getFinalTime() . "\n";
                     $log .= "总共执行的时间: " . $profile->getTotalElapsedSeconds() . "\n";
-                    $this->loger->notice($log);
+                    Log::notice($log);
                 }
             }
         });
