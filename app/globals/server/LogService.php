@@ -8,7 +8,6 @@
  */
 class LogService
 {
-    protected  static $_instance;
     protected  $log_dir ;
 
     //初始化赋值
@@ -16,15 +15,6 @@ class LogService
         $this->log_dir="RunTime/log/".date("Y-m-d");
     }
 
-
-    public static function getInstance()
-    {
-        if(!static::$_instance instanceof static){
-            static::$_instance = new static();
-        }
-        $me = static::$_instance;
-        return  $me;
-    }
 
     public function error($message){
         $log_dir =$this->log_dir."/error";
