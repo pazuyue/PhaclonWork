@@ -2,17 +2,17 @@
 
 /**
  * Created by PhpStorm.
- * User: 月光
- * Date: 2017/9/11
- * Time: 16:01
+ * User: Administrator
+ * Date: 2017/9/29
+ * Time: 15:34
  */
 use support\Facades;
-class LogFacades
+class CacheFacades
 {
     use Facades;
 
     public static function getFacadesAccessor()
     {
-        return LogService::class;
+        return CacheOutServer::class;
     }
 }

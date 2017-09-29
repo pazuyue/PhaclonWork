@@ -31,8 +31,8 @@ return new \Phalcon\Config([
         'globalsCommonDir'       => APP_PATH . '/globals/common/',
         'globalsServerDir'       => APP_PATH . '/globals/server/',
         'globalsFacadesDir'       => APP_PATH . '/globals/facades/',
-        'LogicDir'       => APP_PATH . '/modules/Logic/',
-
+        'LogicDir'       => APP_PATH . '/modules/logic/',
+        'TasksDir'       => APP_PATH . '/tasks/',
         'cacheDir'       => BASE_PATH . '/cache/',
         'TestDir'       => BASE_PATH . '/public/tests',
         'StorageDir'       => BASE_PATH . '/storage',

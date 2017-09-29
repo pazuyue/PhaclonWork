@@ -21,5 +21,6 @@ $loader->registerDirs(
         $config->application->LogicDir,
         $config->application->TestDir,
         $config->application->StorageDir,
+        $config->application->TasksDir,
     ]
 )->register();

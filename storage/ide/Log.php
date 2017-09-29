@@ -8,10 +8,8 @@
  */
 class Log
 {
-    protected  $log_dir ;
 
     public function __construct(){}
-
     /**
      * 错误类型的日记录入
      * @param $message::消息

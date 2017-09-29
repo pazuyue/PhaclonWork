@@ -6,18 +6,18 @@
  * Date: 2017/8/21
  * Time: 20:44
  */
-interface CacheInterface
+class Cache
 {
-    public function getKey($cacheKey);
+    public static function getKey($cacheKey){}
 
-    public function get($cacheKey,$lifetime);
+    public static function get($cacheKey,$lifetime){}
 
-    public function save($cacheKey,$content);
+    public static function save($cacheKey,$content){}
 
-    public function delete($cacheKey);
+    public static function delete($cacheKey){}
 
-    public function start($cacheKey);
+    public static function start($cacheKey){}
 
-    public function queryKeys();
+    public static function queryKeys(){}
 
 }

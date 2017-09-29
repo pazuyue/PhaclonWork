@@ -17,3 +17,7 @@
 #DemoController 类
 作用：部分常用的方法的实例
 
+#tasks CLI触发类
+使用样式：php tasks demo test world universe  
+
+

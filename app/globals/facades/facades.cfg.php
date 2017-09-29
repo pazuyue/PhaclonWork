@@ -8,4 +8,5 @@
 
 return array(
     'Log' =>LogFacades::class,
+    'Cache' =>CacheFacades::class,
 );

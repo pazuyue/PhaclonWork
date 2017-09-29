@@ -172,7 +172,7 @@ class DemoController extends ControllerBase
     public function indexAction()
     {
         $user = new User();
-
+        pre_var(serialize($user));
         // Get Phalcon\Mvc\Model\Metadata instance
         $metadata = $user->getModelsMetaData();
 
@@ -189,6 +189,13 @@ class DemoController extends ControllerBase
     {
         // 发送一个HTTP 404 响应的header
         $this->response->setStatusCode(404, "Not Found");
+    }
+
+    public function cacheAction(){
+        $row = time();
+        Cache::save("a",$row);
+        $data=Cache::get("a");
+        var_dump($data);
     }
 
 }

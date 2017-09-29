@@ -9,7 +9,7 @@
 use Phalcon\Cache\Backend\File as BackFile;
 use Phalcon\Cache\Frontend\Output as FrontOutput;
 
-class CacheOutServer implements CacheInterface
+class CacheOutServer
 {
     protected $cache;
     public function __construct()
