@@ -62,14 +62,10 @@ class SecurityPlugin extends Plugin
                 $acl->addRole($role);
             }
 
-
             //Public area resources
             $publicResources = array(
                  'index'   => array('index','register'),
             );
-
-
-
 
             foreach ($publicResources as $resource => $actions) {
                 $acl->addResource(new Phalcon\Acl\Resource($resource), $actions);

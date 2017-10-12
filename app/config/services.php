@@ -97,6 +97,12 @@ $di->setShared('db', function ()  use ($di){
     return $connection;
 });
 
+$di->setShared('mogodb', function ()  use ($di){
+    $config = $this->getConfig();
+    $manager = new MongoDB\Driver\Manager("mongodb://".$config->mogodb->host);
+    return $manager;
+});
+
 
 /**
  * If the configuration specify the use of metadata adapter use it or use memory otherwise

@@ -16,6 +16,10 @@ return new \Phalcon\Config([
         'dbname'      => 'test',
         'charset'     => 'utf8',
     ],
+    'mogodb' => [
+        'adapter'     => 'Mogodb',
+        'host'        => 'localhost:27017',
+    ],
     'application' => [
         'appDir'         => APP_PATH . '/',
         'controllersDir' => APP_PATH . '/modules/controllers/',
