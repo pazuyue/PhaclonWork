@@ -240,43 +240,39 @@ class DemoController extends ControllerBase
             echo "</pre>";
         }
     }
+            //4162523210974837
+    public function QueryListAction($page=1){
+        //采集某页面所有的图片
+        $html = file_get_contents("https://m.weibo.cn/api/comments/show?id=4162523210974837&page={$page}");
+        $html = json_decode($html);
 
-    public function QueryListAction(){
-        //需要采集的目标页面
-        $page = 'http://cms.querylist.cc/news/566.html';
-//采集规则
-        $reg = [
-            //采集文章标题
-            'title' => ['h1','text'],
-            //采集文章发布日期,这里用到了QueryList的过滤功能，过滤掉span标签和a标签
-            'date' => ['.pt_info','text','-span -a',function($content){
-                //用回调函数进一步过滤出日期
-                $arr = explode(' ',$content);
-                return $arr[0];
-            }],
-            //采集文章正文内容,利用过滤功能去掉文章中的超链接，但保留超链接的文字，并去掉版权、JS代码等无用信息
-            'content' => ['.post_content','html','a -.content_copyright -script']
-        ];
-        $rang = '.content';
-        $ql = QueryList::get($page)->rules($reg)->range($rang)->query();
+        $manager = $this->mogodb;
+        $bulk = new MongoDB\Driver\BulkWrite;
+        if(!empty($html)){
+            if(count($html->data)>0){
+                $data =[];
+                foreach ($html->data as $key=> $row){
+                    $data[$key][] = $row->source;   //来源
+                    $data[$key][] = $row->user->screen_name;   //昵称
+                    $data[$key][] = $row->user->profile_image_url;   //头像
+                    $data[$key][] = $row->user->profile_image_url;   //头像
+                    $data[$key][] = $row->user->profile_url;   //微薄路径
+                    $data[$key][] = $row->text;   //留言
+                }
+                foreach ($data as $row){
+                    $bulk->insert($row);
+                }
+                $manager->executeBulkWrite('test.QueryList', $bulk);
+            }
+        }
+        print_r("数据加载中...当前页码{$page}");
+        echo "<br>";
+        if (count($data)>0)
+        {
+            $page++;
+            $this->QueryListAction($page);
+        }
 
-        $data = $ql->getData(function($item){
-            //利用回调函数下载文章中的图片并替换图片路径为本地路径
-            //使用本例请确保当前目录下有image文件夹，并有写入权限
-            $content = QueryList::html($item['content']);
-            $content->find('img')->map(function($img){
-                $src = 'http://cms.querylist.cc'.$img->src;
-                $localSrc = 'image/'.md5($src).'.jpg';
-                $stream = file_get_contents($src);
-                file_put_contents($localSrc,$stream);
-                $img->attr('src',$localSrc);
-            });
-            $item['content'] = $content->find('')->html();
-            return $item;
-        });
-
-//打印结果
-        print_r($data->all());
     }
 
 }

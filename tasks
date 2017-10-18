@@ -25,7 +25,9 @@
  $loader = new \Phalcon\Loader();
  $loader->registerDirs(
      array(
-         APPLICATION_PATH . '/tasks'
+         APPLICATION_PATH . '/tasks',
+         APPLICATION_PATH . '/modules/logic/',
+         APPLICATION_PATH . '/modules/controllers/'
      )
  );
  $loader->register();
@@ -33,7 +35,12 @@
  //加载配置文件（如果存在）
  if(is_readable(APPLICATION_PATH . '/config/config.php')) {
      $config = include APPLICATION_PATH . '/config/config.php';
-     $di->set('config', $config);
+     $di->setShared('config', $config);
+     $di->setShared('mogodb', function ()  use ($di){
+         $config = $this->getConfig();
+         $manager = new MongoDB\Driver\Manager("mongodb://".$config->mogodb->host);
+         return $manager;
+     });
  }
 
  // 创建console应用
