@@ -241,7 +241,7 @@ class DemoController extends ControllerBase
         }
     }
 
-    //QueryList测试
+    //QueryList测试 2017-11-23
     public function QueryListAction($page=1){
         //采集某页面所有的图片
         $html = file_get_contents("https://m.weibo.cn/api/comments/show?id=4162523210974837&page={$page}");
